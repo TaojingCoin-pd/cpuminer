@@ -1,0 +1,1461 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ACLOCAL	Makefile	/^ACLOCAL = ${SHELL} \/home\/xzhaoyang\/cpuminer2\/cpuminer\/missing --run aclocal-1.11$/;"	m
+ACLOCAL	compat/Makefile	/^ACLOCAL = ${SHELL} \/home\/xzhaoyang\/cpuminer2\/cpuminer\/missing --run aclocal-1.11$/;"	m
+ACLOCAL	compat/jansson/Makefile	/^ACLOCAL = ${SHELL} \/home\/xzhaoyang\/cpuminer2\/cpuminer\/missing --run aclocal-1.11$/;"	m
+ACLOCAL_M4	Makefile	/^ACLOCAL_M4 = $(top_srcdir)\/aclocal.m4$/;"	m
+ACLOCAL_M4	compat/Makefile	/^ACLOCAL_M4 = $(top_srcdir)\/aclocal.m4$/;"	m
+ACLOCAL_M4	compat/jansson/Makefile	/^ACLOCAL_M4 = $(top_srcdir)\/aclocal.m4$/;"	m
+ALGO_BCRYPT	cpu-miner.c	/^	ALGO_BCRYPT,		\/* scrypt(1024,1,1) *\/$/;"	e	enum:sha256_algos	file:
+ALGO_SCRYPT	cpu-miner.c	/^	ALGO_SCRYPT,		\/* scrypt(1024,1,1) *\/$/;"	e	enum:sha256_algos	file:
+ALGO_SHA256D	cpu-miner.c	/^	ALGO_SHA256D,		\/* SHA-256d *\/$/;"	e	enum:sha256_algos	file:
+ALLOCA	Makefile	/^ALLOCA = $/;"	m
+ALLOCA	compat/Makefile	/^ALLOCA = $/;"	m
+ALLOCA	compat/jansson/Makefile	/^ALLOCA = $/;"	m
+AMTAR	Makefile	/^AMTAR = $${TAR-tar}$/;"	m
+AMTAR	compat/Makefile	/^AMTAR = $${TAR-tar}$/;"	m
+AMTAR	compat/jansson/Makefile	/^AMTAR = $${TAR-tar}$/;"	m
+AM_RECURSIVE_TARGETS	Makefile	/^AM_RECURSIVE_TARGETS = $(RECURSIVE_TARGETS:-recursive=) \\$/;"	m
+AM_RECURSIVE_TARGETS	compat/Makefile	/^AM_RECURSIVE_TARGETS = $(RECURSIVE_TARGETS:-recursive=) \\$/;"	m
+AR	compat/jansson/Makefile	/^AR = ar$/;"	m
+ARFLAGS	compat/jansson/Makefile	/^ARFLAGS = cru$/;"	m
+ARRAY_SIZE	miner.h	62;"	d
+AUTOCONF	Makefile	/^AUTOCONF = ${SHELL} \/home\/xzhaoyang\/cpuminer2\/cpuminer\/missing --run autoconf$/;"	m
+AUTOCONF	compat/Makefile	/^AUTOCONF = ${SHELL} \/home\/xzhaoyang\/cpuminer2\/cpuminer\/missing --run autoconf$/;"	m
+AUTOCONF	compat/jansson/Makefile	/^AUTOCONF = ${SHELL} \/home\/xzhaoyang\/cpuminer2\/cpuminer\/missing --run autoconf$/;"	m
+AUTOHEADER	Makefile	/^AUTOHEADER = ${SHELL} \/home\/xzhaoyang\/cpuminer2\/cpuminer\/missing --run autoheader$/;"	m
+AUTOHEADER	compat/Makefile	/^AUTOHEADER = ${SHELL} \/home\/xzhaoyang\/cpuminer2\/cpuminer\/missing --run autoheader$/;"	m
+AUTOHEADER	compat/jansson/Makefile	/^AUTOHEADER = ${SHELL} \/home\/xzhaoyang\/cpuminer2\/cpuminer\/missing --run autoheader$/;"	m
+AUTOMAKE	Makefile	/^AUTOMAKE = ${SHELL} \/home\/xzhaoyang\/cpuminer2\/cpuminer\/missing --run automake-1.11$/;"	m
+AUTOMAKE	compat/Makefile	/^AUTOMAKE = ${SHELL} \/home\/xzhaoyang\/cpuminer2\/cpuminer\/missing --run automake-1.11$/;"	m
+AUTOMAKE	compat/jansson/Makefile	/^AUTOMAKE = ${SHELL} \/home\/xzhaoyang\/cpuminer2\/cpuminer\/missing --run automake-1.11$/;"	m
+AWK	Makefile	/^AWK = gawk$/;"	m
+AWK	compat/Makefile	/^AWK = gawk$/;"	m
+AWK	compat/jansson/Makefile	/^AWK = gawk$/;"	m
+BCRYPT_H	bcrypt.h	2;"	d
+BF_ENCRYPT	bcrypt.c	388;"	d	file:
+BF_INDEX	bcrypt.c	364;"	d	file:
+BF_N	bcrypt.c	51;"	d	file:
+BF_ROUND	bcrypt.c	367;"	d	file:
+BF_body	bcrypt.c	411;"	d	file:
+BF_ctx	bcrypt.c	/^} BF_ctx;$/;"	t	typeref:struct:__anon17	file:
+BF_init_state	bcrypt.c	/^static BF_ctx BF_init_state = {$/;"	v	file:
+BF_key	bcrypt.c	/^typedef BF_word BF_key[BF_N + 2];$/;"	t	file:
+BF_magic_w	bcrypt.c	/^static BF_word BF_magic_w[4] = { \/\/---------------:-)$/;"	v	file:
+BF_set_key	bcrypt.c	/^static void BF_set_key(const char *key, BF_key expanded, BF_key initial) {$/;"	f	file:
+BF_swap	bcrypt.c	/^static void BF_swap(BF_word *x, int count) {$/;"	f	file:
+BF_word	bcrypt.c	/^typedef uint32_t BF_word;$/;"	t	file:
+CC	Makefile	/^CC = gcc -std=gnu99$/;"	m
+CC	compat/Makefile	/^CC = gcc -std=gnu99$/;"	m
+CC	compat/jansson/Makefile	/^CC = gcc -std=gnu99$/;"	m
+CCAS	Makefile	/^CCAS = gcc -std=gnu99$/;"	m
+CCAS	compat/Makefile	/^CCAS = gcc -std=gnu99$/;"	m
+CCAS	compat/jansson/Makefile	/^CCAS = gcc -std=gnu99$/;"	m
+CCASDEPMODE	Makefile	/^CCASDEPMODE = depmode=gcc3$/;"	m
+CCASDEPMODE	compat/Makefile	/^CCASDEPMODE = depmode=gcc3$/;"	m
+CCASDEPMODE	compat/jansson/Makefile	/^CCASDEPMODE = depmode=gcc3$/;"	m
+CCASFLAGS	Makefile	/^CCASFLAGS = -g -O2$/;"	m
+CCASFLAGS	compat/Makefile	/^CCASFLAGS = -g -O2$/;"	m
+CCASFLAGS	compat/jansson/Makefile	/^CCASFLAGS = -g -O2$/;"	m
+CCDEPMODE	Makefile	/^CCDEPMODE = depmode=gcc3$/;"	m
+CCDEPMODE	compat/Makefile	/^CCDEPMODE = depmode=gcc3$/;"	m
+CCDEPMODE	compat/jansson/Makefile	/^CCDEPMODE = depmode=gcc3$/;"	m
+CCLD	Makefile	/^CCLD = $(CC)$/;"	m
+CCLD	compat/jansson/Makefile	/^CCLD = $(CC)$/;"	m
+CFLAGS	Makefile	/^CFLAGS = -g -O2$/;"	m
+CFLAGS	compat/Makefile	/^CFLAGS = -g -O2$/;"	m
+CFLAGS	compat/jansson/Makefile	/^CFLAGS = -g -O2$/;"	m
+COMPILE	Makefile	/^COMPILE = $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) \\$/;"	m
+COMPILE	compat/jansson/Makefile	/^COMPILE = $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) \\$/;"	m
+CONFIG_CLEAN_FILES	Makefile	/^CONFIG_CLEAN_FILES =$/;"	m
+CONFIG_CLEAN_FILES	compat/Makefile	/^CONFIG_CLEAN_FILES =$/;"	m
+CONFIG_CLEAN_FILES	compat/jansson/Makefile	/^CONFIG_CLEAN_FILES =$/;"	m
+CONFIG_CLEAN_VPATH_FILES	Makefile	/^CONFIG_CLEAN_VPATH_FILES =$/;"	m
+CONFIG_CLEAN_VPATH_FILES	compat/Makefile	/^CONFIG_CLEAN_VPATH_FILES =$/;"	m
+CONFIG_CLEAN_VPATH_FILES	compat/jansson/Makefile	/^CONFIG_CLEAN_VPATH_FILES =$/;"	m
+CONFIG_HEADER	Makefile	/^CONFIG_HEADER = cpuminer-config.h$/;"	m
+CONFIG_HEADER	compat/Makefile	/^CONFIG_HEADER = $(top_builddir)\/cpuminer-config.h$/;"	m
+CONFIG_HEADER	compat/jansson/Makefile	/^CONFIG_HEADER = $(top_builddir)\/cpuminer-config.h$/;"	m
+CPP	Makefile	/^CPP = gcc -std=gnu99 -E$/;"	m
+CPP	compat/Makefile	/^CPP = gcc -std=gnu99 -E$/;"	m
+CPP	compat/jansson/Makefile	/^CPP = gcc -std=gnu99 -E$/;"	m
+CPPASCOMPILE	Makefile	/^CPPASCOMPILE = $(CCAS) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) \\$/;"	m
+CPPFLAGS	Makefile	/^CPPFLAGS = $/;"	m
+CPPFLAGS	compat/Makefile	/^CPPFLAGS = $/;"	m
+CPPFLAGS	compat/jansson/Makefile	/^CPPFLAGS = $/;"	m
+CTAGS	Makefile	/^CTAGS = ctags$/;"	m
+CTAGS	compat/Makefile	/^CTAGS = ctags$/;"	m
+CTAGS	compat/jansson/Makefile	/^CTAGS = ctags$/;"	m
+CYGPATH_W	Makefile	/^CYGPATH_W = echo$/;"	m
+CYGPATH_W	compat/Makefile	/^CYGPATH_W = echo$/;"	m
+CYGPATH_W	compat/jansson/Makefile	/^CYGPATH_W = echo$/;"	m
+Ch	sha2.c	51;"	d	file:
+DEFAULT_INCLUDES	Makefile	/^DEFAULT_INCLUDES = -I.$/;"	m
+DEFAULT_INCLUDES	compat/jansson/Makefile	/^DEFAULT_INCLUDES = -I. -I$(top_builddir)$/;"	m
+DEFS	Makefile	/^DEFS = -DHAVE_CONFIG_H$/;"	m
+DEFS	compat/Makefile	/^DEFS = -DHAVE_CONFIG_H$/;"	m
+DEFS	compat/jansson/Makefile	/^DEFS = -DHAVE_CONFIG_H$/;"	m
+DEPDIR	Makefile	/^DEPDIR = .deps$/;"	m
+DEPDIR	compat/Makefile	/^DEPDIR = .deps$/;"	m
+DEPDIR	compat/jansson/Makefile	/^DEPDIR = .deps$/;"	m
+DISTFILES	Makefile	/^DISTFILES = $(DIST_COMMON) $(DIST_SOURCES) $(TEXINFOS) $(EXTRA_DIST)$/;"	m
+DISTFILES	compat/Makefile	/^DISTFILES = $(DIST_COMMON) $(DIST_SOURCES) $(TEXINFOS) $(EXTRA_DIST)$/;"	m
+DISTFILES	compat/jansson/Makefile	/^DISTFILES = $(DIST_COMMON) $(DIST_SOURCES) $(TEXINFOS) $(EXTRA_DIST)$/;"	m
+DIST_ARCHIVES	Makefile	/^DIST_ARCHIVES = $(distdir).tar.gz$/;"	m
+DIST_COMMON	Makefile	/^DIST_COMMON = README $(am__configure_deps) $(dist_man_MANS) \\$/;"	m
+DIST_COMMON	compat/Makefile	/^DIST_COMMON = $(srcdir)\/Makefile.am $(srcdir)\/Makefile.in$/;"	m
+DIST_COMMON	compat/jansson/Makefile	/^DIST_COMMON = $(srcdir)\/Makefile.am $(srcdir)\/Makefile.in$/;"	m
+DIST_SOURCES	Makefile	/^DIST_SOURCES = $(am__minerd_SOURCES_DIST)$/;"	m
+DIST_SOURCES	compat/Makefile	/^DIST_SOURCES =$/;"	m
+DIST_SOURCES	compat/jansson/Makefile	/^DIST_SOURCES = $(libjansson_a_SOURCES)$/;"	m
+DIST_SUBDIRS	Makefile	/^DIST_SUBDIRS = $(SUBDIRS)$/;"	m
+DIST_SUBDIRS	compat/Makefile	/^DIST_SUBDIRS = jansson$/;"	m
+ECHO_C	Makefile	/^ECHO_C = $/;"	m
+ECHO_C	compat/Makefile	/^ECHO_C = $/;"	m
+ECHO_C	compat/jansson/Makefile	/^ECHO_C = $/;"	m
+ECHO_N	Makefile	/^ECHO_N = -n$/;"	m
+ECHO_N	compat/Makefile	/^ECHO_N = -n$/;"	m
+ECHO_N	compat/jansson/Makefile	/^ECHO_N = -n$/;"	m
+ECHO_T	Makefile	/^ECHO_T = $/;"	m
+ECHO_T	compat/Makefile	/^ECHO_T = $/;"	m
+ECHO_T	compat/jansson/Makefile	/^ECHO_T = $/;"	m
+EGREP	Makefile	/^EGREP = \/bin\/grep -E$/;"	m
+EGREP	compat/Makefile	/^EGREP = \/bin\/grep -E$/;"	m
+EGREP	compat/jansson/Makefile	/^EGREP = \/bin\/grep -E$/;"	m
+ETAGS	Makefile	/^ETAGS = etags$/;"	m
+ETAGS	compat/Makefile	/^ETAGS = etags$/;"	m
+ETAGS	compat/jansson/Makefile	/^ETAGS = etags$/;"	m
+EXEEXT	Makefile	/^EXEEXT = $/;"	m
+EXEEXT	compat/Makefile	/^EXEEXT = $/;"	m
+EXEEXT	compat/jansson/Makefile	/^EXEEXT = $/;"	m
+EXTERN_SHA256	sha2.c	18;"	d	file:
+EXTRA_DIST	Makefile	/^EXTRA_DIST = example-cfg.json nomacro.pl$/;"	m
+GREP	Makefile	/^GREP = \/bin\/grep$/;"	m
+GREP	compat/Makefile	/^GREP = \/bin\/grep$/;"	m
+GREP	compat/jansson/Makefile	/^GREP = \/bin\/grep$/;"	m
+GZIP_ENV	Makefile	/^GZIP_ENV = --best$/;"	m
+HASHTABLE_H	compat/jansson/hashtable.h	9;"	d
+HAVE_ALLOCA	cpuminer-config.h	13;"	d
+HAVE_ALLOCA_H	cpuminer-config.h	17;"	d
+HAVE_DECL_BE32DEC	cpuminer-config.h	21;"	d
+HAVE_DECL_BE32ENC	cpuminer-config.h	25;"	d
+HAVE_DECL_LE32DEC	cpuminer-config.h	29;"	d
+HAVE_DECL_LE32ENC	cpuminer-config.h	33;"	d
+HAVE_DLFCN_H	compat/jansson/config.h	5;"	d
+HAVE_GETOPT_LONG	cpuminer-config.h	36;"	d
+HAVE_INTTYPES_H	compat/jansson/config.h	8;"	d
+HAVE_INTTYPES_H	cpuminer-config.h	39;"	d
+HAVE_LIBCURL	cpuminer-config.h	42;"	d
+HAVE_MEMORY_H	compat/jansson/config.h	11;"	d
+HAVE_MEMORY_H	cpuminer-config.h	45;"	d
+HAVE_SCRYPT_3WAY	scrypt.c	384;"	d	file:
+HAVE_SCRYPT_3WAY	scrypt.c	407;"	d	file:
+HAVE_SCRYPT_6WAY	scrypt.c	391;"	d	file:
+HAVE_SHA256_4WAY	miner.h	138;"	d
+HAVE_SHA256_4WAY	scrypt.c	405;"	d	file:
+HAVE_SHA256_8WAY	miner.h	145;"	d
+HAVE_STDINT_H	compat/jansson/config.h	14;"	d
+HAVE_STDINT_H	cpuminer-config.h	48;"	d
+HAVE_STDLIB_H	compat/jansson/config.h	17;"	d
+HAVE_STDLIB_H	cpuminer-config.h	51;"	d
+HAVE_STRINGS_H	compat/jansson/config.h	20;"	d
+HAVE_STRINGS_H	cpuminer-config.h	54;"	d
+HAVE_STRING_H	compat/jansson/config.h	23;"	d
+HAVE_STRING_H	cpuminer-config.h	57;"	d
+HAVE_SYSLOG_H	cpuminer-config.h	60;"	d
+HAVE_SYS_PARAM_H	cpuminer-config.h	66;"	d
+HAVE_SYS_STAT_H	compat/jansson/config.h	26;"	d
+HAVE_SYS_STAT_H	cpuminer-config.h	69;"	d
+HAVE_SYS_SYSCTL_H	cpuminer-config.h	72;"	d
+HAVE_SYS_TYPES_H	compat/jansson/config.h	29;"	d
+HAVE_SYS_TYPES_H	cpuminer-config.h	75;"	d
+HAVE_UNISTD_H	compat/jansson/config.h	32;"	d
+HAVE_UNISTD_H	cpuminer-config.h	78;"	d
+HMAC_SHA256_80_init	scrypt.c	/^static inline void HMAC_SHA256_80_init(const uint32_t *key,$/;"	f	file:
+HMAC_SHA256_80_init_4way	scrypt.c	/^static inline void HMAC_SHA256_80_init_4way(const uint32_t *key,$/;"	f	file:
+HMAC_SHA256_80_init_8way	scrypt.c	/^static inline void HMAC_SHA256_80_init_8way(const uint32_t *key,$/;"	f	file:
+INCLUDES	Makefile	/^INCLUDES = $(PTHREAD_FLAGS) -fno-strict-aliasing $(JANSSON_INCLUDES)$/;"	m
+INIT_LIST_HEAD	elist.h	23;"	d
+INSTALL	Makefile	/^INSTALL = \/usr\/bin\/install -c$/;"	m
+INSTALL	compat/Makefile	/^INSTALL = \/usr\/bin\/install -c$/;"	m
+INSTALL	compat/jansson/Makefile	/^INSTALL = \/usr\/bin\/install -c$/;"	m
+INSTALL_DATA	Makefile	/^INSTALL_DATA = ${INSTALL} -m 644$/;"	m
+INSTALL_DATA	compat/Makefile	/^INSTALL_DATA = ${INSTALL} -m 644$/;"	m
+INSTALL_DATA	compat/jansson/Makefile	/^INSTALL_DATA = ${INSTALL} -m 644$/;"	m
+INSTALL_HEADER	Makefile	/^INSTALL_HEADER = $(INSTALL_DATA)$/;"	m
+INSTALL_HEADER	compat/Makefile	/^INSTALL_HEADER = $(INSTALL_DATA)$/;"	m
+INSTALL_HEADER	compat/jansson/Makefile	/^INSTALL_HEADER = $(INSTALL_DATA)$/;"	m
+INSTALL_PROGRAM	Makefile	/^INSTALL_PROGRAM = ${INSTALL}$/;"	m
+INSTALL_PROGRAM	compat/Makefile	/^INSTALL_PROGRAM = ${INSTALL}$/;"	m
+INSTALL_PROGRAM	compat/jansson/Makefile	/^INSTALL_PROGRAM = ${INSTALL}$/;"	m
+INSTALL_SCRIPT	Makefile	/^INSTALL_SCRIPT = ${INSTALL}$/;"	m
+INSTALL_SCRIPT	compat/Makefile	/^INSTALL_SCRIPT = ${INSTALL}$/;"	m
+INSTALL_SCRIPT	compat/jansson/Makefile	/^INSTALL_SCRIPT = ${INSTALL}$/;"	m
+INSTALL_STRIP_PROGRAM	Makefile	/^INSTALL_STRIP_PROGRAM = $(install_sh) -c -s$/;"	m
+INSTALL_STRIP_PROGRAM	compat/Makefile	/^INSTALL_STRIP_PROGRAM = $(install_sh) -c -s$/;"	m
+INSTALL_STRIP_PROGRAM	compat/jansson/Makefile	/^INSTALL_STRIP_PROGRAM = $(install_sh) -c -s$/;"	m
+JANSSON_H	compat/jansson/jansson.h	9;"	d
+JANSSON_INCLUDES	Makefile	/^JANSSON_INCLUDES = -I$(top_srcdir)\/compat\/jansson$/;"	m
+JANSSON_LIBS	Makefile	/^JANSSON_LIBS = compat\/jansson\/libjansson.a$/;"	m
+JANSSON_LIBS	compat/Makefile	/^JANSSON_LIBS = compat\/jansson\/libjansson.a$/;"	m
+JANSSON_LIBS	compat/jansson/Makefile	/^JANSSON_LIBS = compat\/jansson\/libjansson.a$/;"	m
+JANSSON_PRIVATE_H	compat/jansson/jansson_private.h	9;"	d
+JSON_ARRAY	compat/jansson/jansson.h	/^    JSON_ARRAY,$/;"	e	enum:__anon2
+JSON_COMPACT	compat/jansson/jansson.h	178;"	d
+JSON_ENSURE_ASCII	compat/jansson/jansson.h	179;"	d
+JSON_ERROR_TEXT_LENGTH	compat/jansson/jansson.h	166;"	d
+JSON_FALSE	compat/jansson/jansson.h	/^    JSON_FALSE,$/;"	e	enum:__anon2
+JSON_INDENT	compat/jansson/jansson.h	177;"	d
+JSON_INLINE	compat/jansson/jansson.h	14;"	d
+JSON_INLINE	compat/jansson/jansson.h	16;"	d
+JSON_INTEGER	compat/jansson/jansson.h	/^    JSON_INTEGER,$/;"	e	enum:__anon2
+JSON_LOADS	miner.h	126;"	d
+JSON_LOADS	miner.h	128;"	d
+JSON_NULL	compat/jansson/jansson.h	/^    JSON_NULL$/;"	e	enum:__anon2
+JSON_OBJECT	compat/jansson/jansson.h	/^    JSON_OBJECT,$/;"	e	enum:__anon2
+JSON_PRESERVE_ORDER	compat/jansson/jansson.h	181;"	d
+JSON_REAL	compat/jansson/jansson.h	/^    JSON_REAL,$/;"	e	enum:__anon2
+JSON_SORT_KEYS	compat/jansson/jansson.h	180;"	d
+JSON_STRING	compat/jansson/jansson.h	/^    JSON_STRING,$/;"	e	enum:__anon2
+JSON_TRUE	compat/jansson/jansson.h	/^    JSON_TRUE,$/;"	e	enum:__anon2
+LDFLAGS	Makefile	/^LDFLAGS = $/;"	m
+LDFLAGS	compat/Makefile	/^LDFLAGS = $/;"	m
+LDFLAGS	compat/jansson/Makefile	/^LDFLAGS = $/;"	m
+LIBCURL	Makefile	/^LIBCURL = -L\/usr\/lib\/i386-linux-gnu -lcurl$/;"	m
+LIBCURL	compat/Makefile	/^LIBCURL = -L\/usr\/lib\/i386-linux-gnu -lcurl$/;"	m
+LIBCURL	compat/jansson/Makefile	/^LIBCURL = -L\/usr\/lib\/i386-linux-gnu -lcurl$/;"	m
+LIBCURL_CPPFLAGS	Makefile	/^LIBCURL_CPPFLAGS = $/;"	m
+LIBCURL_CPPFLAGS	compat/Makefile	/^LIBCURL_CPPFLAGS = $/;"	m
+LIBCURL_CPPFLAGS	compat/jansson/Makefile	/^LIBCURL_CPPFLAGS = $/;"	m
+LIBCURL_FEATURE_IDN	cpuminer-config.h	84;"	d
+LIBCURL_FEATURE_IPV6	cpuminer-config.h	87;"	d
+LIBCURL_FEATURE_LIBZ	cpuminer-config.h	93;"	d
+LIBCURL_FEATURE_NTLM	cpuminer-config.h	96;"	d
+LIBCURL_FEATURE_SSL	cpuminer-config.h	99;"	d
+LIBCURL_PROTOCOL_DICT	cpuminer-config.h	105;"	d
+LIBCURL_PROTOCOL_FILE	cpuminer-config.h	108;"	d
+LIBCURL_PROTOCOL_FTP	cpuminer-config.h	111;"	d
+LIBCURL_PROTOCOL_FTPS	cpuminer-config.h	114;"	d
+LIBCURL_PROTOCOL_HTTP	cpuminer-config.h	117;"	d
+LIBCURL_PROTOCOL_HTTPS	cpuminer-config.h	120;"	d
+LIBCURL_PROTOCOL_IMAP	cpuminer-config.h	123;"	d
+LIBCURL_PROTOCOL_LDAP	cpuminer-config.h	126;"	d
+LIBCURL_PROTOCOL_POP3	cpuminer-config.h	129;"	d
+LIBCURL_PROTOCOL_RTSP	cpuminer-config.h	132;"	d
+LIBCURL_PROTOCOL_SMTP	cpuminer-config.h	135;"	d
+LIBCURL_PROTOCOL_TELNET	cpuminer-config.h	138;"	d
+LIBCURL_PROTOCOL_TFTP	cpuminer-config.h	141;"	d
+LIBOBJS	Makefile	/^LIBOBJS = $/;"	m
+LIBOBJS	compat/Makefile	/^LIBOBJS = $/;"	m
+LIBOBJS	compat/jansson/Makefile	/^LIBOBJS = $/;"	m
+LIBRARIES	compat/jansson/Makefile	/^LIBRARIES = $(noinst_LIBRARIES)$/;"	m
+LIBS	Makefile	/^LIBS = $/;"	m
+LIBS	compat/Makefile	/^LIBS = $/;"	m
+LIBS	compat/jansson/Makefile	/^LIBS = $/;"	m
+LINK	Makefile	/^LINK = $(CCLD) $(AM_CFLAGS) $(CFLAGS) $(AM_LDFLAGS) $(LDFLAGS) -o $@$/;"	m
+LINK	compat/jansson/Makefile	/^LINK = $(CCLD) $(AM_CFLAGS) $(CFLAGS) $(AM_LDFLAGS) $(LDFLAGS) -o $@$/;"	m
+LIST_HEAD	elist.h	20;"	d
+LIST_HEAD_INIT	elist.h	18;"	d
+LOG_DEBUG	miner.h	/^	LOG_DEBUG,$/;"	e	enum:__anon16
+LOG_ERR	miner.h	/^	LOG_ERR,$/;"	e	enum:__anon16
+LOG_INFO	miner.h	/^	LOG_INFO,$/;"	e	enum:__anon16
+LOG_NOTICE	miner.h	/^	LOG_NOTICE,$/;"	e	enum:__anon16
+LOG_WARNING	miner.h	/^	LOG_WARNING,$/;"	e	enum:__anon16
+LP_SCANTIME	cpu-miner.c	42;"	d	file:
+LTLIBOBJS	Makefile	/^LTLIBOBJS = $/;"	m
+LTLIBOBJS	compat/Makefile	/^LTLIBOBJS = $/;"	m
+LTLIBOBJS	compat/jansson/Makefile	/^LTLIBOBJS = $/;"	m
+LT_OBJDIR	compat/jansson/config.h	36;"	d
+MAINT	Makefile	/^MAINT = #$/;"	m
+MAINT	compat/Makefile	/^MAINT = #$/;"	m
+MAINT	compat/jansson/Makefile	/^MAINT = #$/;"	m
+MAKEINFO	Makefile	/^MAKEINFO = ${SHELL} \/home\/xzhaoyang\/cpuminer2\/cpuminer\/missing --run makeinfo$/;"	m
+MAKEINFO	compat/Makefile	/^MAKEINFO = ${SHELL} \/home\/xzhaoyang\/cpuminer2\/cpuminer\/missing --run makeinfo$/;"	m
+MAKEINFO	compat/jansson/Makefile	/^MAKEINFO = ${SHELL} \/home\/xzhaoyang\/cpuminer2\/cpuminer\/missing --run makeinfo$/;"	m
+MANS	Makefile	/^MANS = $(dist_man_MANS)$/;"	m
+MAX_INTEGER_STR_LENGTH	compat/jansson/dump.c	19;"	d	file:
+MAX_REAL_STR_LENGTH	compat/jansson/dump.c	20;"	d	file:
+MKDIR_P	Makefile	/^MKDIR_P = \/bin\/mkdir -p$/;"	m
+MKDIR_P	compat/Makefile	/^MKDIR_P = \/bin\/mkdir -p$/;"	m
+MKDIR_P	compat/jansson/Makefile	/^MKDIR_P = \/bin\/mkdir -p$/;"	m
+Maj	sha2.c	52;"	d	file:
+NORMAL_INSTALL	Makefile	/^NORMAL_INSTALL = :$/;"	m
+NORMAL_INSTALL	compat/Makefile	/^NORMAL_INSTALL = :$/;"	m
+NORMAL_INSTALL	compat/jansson/Makefile	/^NORMAL_INSTALL = :$/;"	m
+NORMAL_UNINSTALL	Makefile	/^NORMAL_UNINSTALL = :$/;"	m
+NORMAL_UNINSTALL	compat/Makefile	/^NORMAL_UNINSTALL = :$/;"	m
+NORMAL_UNINSTALL	compat/jansson/Makefile	/^NORMAL_UNINSTALL = :$/;"	m
+NROFF	Makefile	/^NROFF = nroff$/;"	m
+OBJEXT	Makefile	/^OBJEXT = o$/;"	m
+OBJEXT	compat/Makefile	/^OBJEXT = o$/;"	m
+OBJEXT	compat/jansson/Makefile	/^OBJEXT = o$/;"	m
+P	bcrypt.c	/^	BF_key P;$/;"	m	struct:__anon17	file:
+PACKAGE	Makefile	/^PACKAGE = cpuminer$/;"	m
+PACKAGE	compat/Makefile	/^PACKAGE = cpuminer$/;"	m
+PACKAGE	compat/jansson/Makefile	/^PACKAGE = cpuminer$/;"	m
+PACKAGE	compat/jansson/config.h	39;"	d
+PACKAGE	cpuminer-config.h	147;"	d
+PACKAGE_BUGREPORT	Makefile	/^PACKAGE_BUGREPORT = $/;"	m
+PACKAGE_BUGREPORT	compat/Makefile	/^PACKAGE_BUGREPORT = $/;"	m
+PACKAGE_BUGREPORT	compat/jansson/Makefile	/^PACKAGE_BUGREPORT = $/;"	m
+PACKAGE_BUGREPORT	compat/jansson/config.h	42;"	d
+PACKAGE_BUGREPORT	cpuminer-config.h	150;"	d
+PACKAGE_NAME	Makefile	/^PACKAGE_NAME = cpuminer$/;"	m
+PACKAGE_NAME	compat/Makefile	/^PACKAGE_NAME = cpuminer$/;"	m
+PACKAGE_NAME	compat/jansson/Makefile	/^PACKAGE_NAME = cpuminer$/;"	m
+PACKAGE_NAME	compat/jansson/config.h	45;"	d
+PACKAGE_NAME	cpuminer-config.h	153;"	d
+PACKAGE_STRING	Makefile	/^PACKAGE_STRING = cpuminer 2.3.2$/;"	m
+PACKAGE_STRING	compat/Makefile	/^PACKAGE_STRING = cpuminer 2.3.2$/;"	m
+PACKAGE_STRING	compat/jansson/Makefile	/^PACKAGE_STRING = cpuminer 2.3.2$/;"	m
+PACKAGE_STRING	compat/jansson/config.h	48;"	d
+PACKAGE_STRING	cpuminer-config.h	156;"	d
+PACKAGE_TARNAME	Makefile	/^PACKAGE_TARNAME = cpuminer$/;"	m
+PACKAGE_TARNAME	compat/Makefile	/^PACKAGE_TARNAME = cpuminer$/;"	m
+PACKAGE_TARNAME	compat/jansson/Makefile	/^PACKAGE_TARNAME = cpuminer$/;"	m
+PACKAGE_TARNAME	compat/jansson/config.h	51;"	d
+PACKAGE_TARNAME	cpuminer-config.h	159;"	d
+PACKAGE_URL	Makefile	/^PACKAGE_URL = $/;"	m
+PACKAGE_URL	compat/Makefile	/^PACKAGE_URL = $/;"	m
+PACKAGE_URL	compat/jansson/Makefile	/^PACKAGE_URL = $/;"	m
+PACKAGE_URL	compat/jansson/config.h	54;"	d
+PACKAGE_URL	cpuminer-config.h	162;"	d
+PACKAGE_VERSION	Makefile	/^PACKAGE_VERSION = 2.3.2$/;"	m
+PACKAGE_VERSION	compat/Makefile	/^PACKAGE_VERSION = 2.3.2$/;"	m
+PACKAGE_VERSION	compat/jansson/Makefile	/^PACKAGE_VERSION = 2.3.2$/;"	m
+PACKAGE_VERSION	compat/jansson/config.h	57;"	d
+PACKAGE_VERSION	cpuminer-config.h	165;"	d
+PATH_SEPARATOR	Makefile	/^PATH_SEPARATOR = :$/;"	m
+PATH_SEPARATOR	compat/Makefile	/^PATH_SEPARATOR = :$/;"	m
+PATH_SEPARATOR	compat/jansson/Makefile	/^PATH_SEPARATOR = :$/;"	m
+PBKDF2_SHA256_128_32	scrypt.c	/^static inline void PBKDF2_SHA256_128_32(uint32_t *tstate, uint32_t *ostate,$/;"	f	file:
+PBKDF2_SHA256_128_32_4way	scrypt.c	/^static inline void PBKDF2_SHA256_128_32_4way(uint32_t *tstate,$/;"	f	file:
+PBKDF2_SHA256_128_32_8way	scrypt.c	/^static inline void PBKDF2_SHA256_128_32_8way(uint32_t *tstate,$/;"	f	file:
+PBKDF2_SHA256_80_128	scrypt.c	/^static inline void PBKDF2_SHA256_80_128(const uint32_t *tstate,$/;"	f	file:
+PBKDF2_SHA256_80_128_4way	scrypt.c	/^static inline void PBKDF2_SHA256_80_128_4way(const uint32_t *tstate,$/;"	f	file:
+PBKDF2_SHA256_80_128_8way	scrypt.c	/^static inline void PBKDF2_SHA256_80_128_8way(const uint32_t *tstate,$/;"	f	file:
+POST_INSTALL	Makefile	/^POST_INSTALL = :$/;"	m
+POST_INSTALL	compat/Makefile	/^POST_INSTALL = :$/;"	m
+POST_INSTALL	compat/jansson/Makefile	/^POST_INSTALL = :$/;"	m
+POST_UNINSTALL	Makefile	/^POST_UNINSTALL = :$/;"	m
+POST_UNINSTALL	compat/Makefile	/^POST_UNINSTALL = :$/;"	m
+POST_UNINSTALL	compat/jansson/Makefile	/^POST_UNINSTALL = :$/;"	m
+PRE_INSTALL	Makefile	/^PRE_INSTALL = :$/;"	m
+PRE_INSTALL	compat/Makefile	/^PRE_INSTALL = :$/;"	m
+PRE_INSTALL	compat/jansson/Makefile	/^PRE_INSTALL = :$/;"	m
+PRE_UNINSTALL	Makefile	/^PRE_UNINSTALL = :$/;"	m
+PRE_UNINSTALL	compat/Makefile	/^PRE_UNINSTALL = :$/;"	m
+PRE_UNINSTALL	compat/jansson/Makefile	/^PRE_UNINSTALL = :$/;"	m
+PRIO_PROCESS	compat.h	/^	PRIO_PROCESS		= 0,$/;"	e	enum:__anon1
+PROGRAMS	Makefile	/^PROGRAMS = $(bin_PROGRAMS)$/;"	m
+PROGRAM_NAME	cpu-miner.c	41;"	d	file:
+PTHREAD_FLAGS	Makefile	/^PTHREAD_FLAGS = -pthread$/;"	m
+PTHREAD_FLAGS	compat/Makefile	/^PTHREAD_FLAGS = -pthread$/;"	m
+PTHREAD_FLAGS	compat/jansson/Makefile	/^PTHREAD_FLAGS = -pthread$/;"	m
+PTHREAD_LIBS	Makefile	/^PTHREAD_LIBS = -lpthread$/;"	m
+PTHREAD_LIBS	compat/Makefile	/^PTHREAD_LIBS = -lpthread$/;"	m
+PTHREAD_LIBS	compat/jansson/Makefile	/^PTHREAD_LIBS = -lpthread$/;"	m
+R	scrypt.c	436;"	d	file:
+R	scrypt.c	462;"	d	file:
+RANLIB	Makefile	/^RANLIB = ranlib$/;"	m
+RANLIB	compat/Makefile	/^RANLIB = ranlib$/;"	m
+RANLIB	compat/jansson/Makefile	/^RANLIB = ranlib$/;"	m
+RBUFSIZE	util.c	642;"	d	file:
+RECURSIVE_CLEAN_TARGETS	Makefile	/^RECURSIVE_CLEAN_TARGETS = mostlyclean-recursive clean-recursive	\\$/;"	m
+RECURSIVE_CLEAN_TARGETS	compat/Makefile	/^RECURSIVE_CLEAN_TARGETS = mostlyclean-recursive clean-recursive	\\$/;"	m
+RECURSIVE_TARGETS	Makefile	/^RECURSIVE_TARGETS = all-recursive check-recursive dvi-recursive \\$/;"	m
+RECURSIVE_TARGETS	compat/Makefile	/^RECURSIVE_TARGETS = all-recursive check-recursive dvi-recursive \\$/;"	m
+RECVSIZE	util.c	643;"	d	file:
+RND	sha2.c	60;"	d	file:
+RNDr	sha2.c	69;"	d	file:
+ROTR	sha2.c	53;"	d	file:
+S	bcrypt.c	/^	BF_word S[4][0x100];$/;"	m	struct:__anon17	file:
+S0	sha2.c	54;"	d	file:
+S1	sha2.c	55;"	d	file:
+SCRYPT_BUFFER_SIZE	scrypt.c	507;"	d	file:
+SCRYPT_MAX_WAYS	scrypt.c	383;"	d	file:
+SCRYPT_MAX_WAYS	scrypt.c	389;"	d	file:
+SCRYPT_MAX_WAYS	scrypt.c	390;"	d	file:
+SCRYPT_MAX_WAYS	scrypt.c	397;"	d	file:
+SCRYPT_MAX_WAYS	scrypt.c	406;"	d	file:
+SCRYPT_MAX_WAYS	scrypt.c	503;"	d	file:
+SET_MAKE	Makefile	/^SET_MAKE = $/;"	m
+SET_MAKE	compat/Makefile	/^SET_MAKE = $/;"	m
+SET_MAKE	compat/jansson/Makefile	/^SET_MAKE = $/;"	m
+SHELL	Makefile	/^SHELL = \/bin\/bash$/;"	m
+SHELL	compat/Makefile	/^SHELL = \/bin\/bash$/;"	m
+SHELL	compat/jansson/Makefile	/^SHELL = \/bin\/bash$/;"	m
+SOURCES	Makefile	/^SOURCES = $(minerd_SOURCES)$/;"	m
+SOURCES	compat/Makefile	/^SOURCES =$/;"	m
+SOURCES	compat/jansson/Makefile	/^SOURCES = $(libjansson_a_SOURCES)$/;"	m
+STDC_HEADERS	compat/jansson/config.h	60;"	d
+STDC_HEADERS	cpuminer-config.h	176;"	d
+STRBUFFER_FACTOR	compat/jansson/strbuffer.c	15;"	d	file:
+STRBUFFER_H	compat/jansson/strbuffer.h	9;"	d
+STRBUFFER_MIN_SIZE	compat/jansson/strbuffer.c	14;"	d	file:
+STRIP	Makefile	/^STRIP = $/;"	m
+STRIP	compat/Makefile	/^STRIP = $/;"	m
+STRIP	compat/jansson/Makefile	/^STRIP = $/;"	m
+SUBDIRS	Makefile	/^SUBDIRS = compat$/;"	m
+SUBDIRS	compat/Makefile	/^SUBDIRS = jansson$/;"	m
+TOKEN_EOF	compat/jansson/load.c	24;"	d	file:
+TOKEN_FALSE	compat/jansson/load.c	29;"	d	file:
+TOKEN_INTEGER	compat/jansson/load.c	26;"	d	file:
+TOKEN_INVALID	compat/jansson/load.c	23;"	d	file:
+TOKEN_NULL	compat/jansson/load.c	30;"	d	file:
+TOKEN_REAL	compat/jansson/load.c	27;"	d	file:
+TOKEN_STRING	compat/jansson/load.c	25;"	d	file:
+TOKEN_TRUE	compat/jansson/load.c	28;"	d	file:
+USER_AGENT	miner.h	131;"	d
+USE_AVX	cpuminer-config.h	179;"	d
+USE_AVX2	cpuminer-config.h	182;"	d
+USE_XOP	cpuminer-config.h	185;"	d
+UTF_H	compat/jansson/utf.h	9;"	d
+UTIL_H	compat/jansson/util.h	9;"	d
+VERSION	Makefile	/^VERSION = 2.3.2$/;"	m
+VERSION	compat/Makefile	/^VERSION = 2.3.2$/;"	m
+VERSION	compat/jansson/Makefile	/^VERSION = 2.3.2$/;"	m
+VERSION	compat/jansson/config.h	63;"	d
+VERSION	cpuminer-config.h	188;"	d
+WANT_BUILTIN_BSWAP	miner.h	66;"	d
+WC_GET_WORK	cpu-miner.c	/^	WC_GET_WORK,$/;"	e	enum:workio_commands	file:
+WC_SUBMIT_WORK	cpu-miner.c	/^	WC_SUBMIT_WORK,$/;"	e	enum:workio_commands	file:
+WS2_LIBS	Makefile	/^WS2_LIBS = $/;"	m
+WS2_LIBS	compat/Makefile	/^WS2_LIBS = $/;"	m
+WS2_LIBS	compat/jansson/Makefile	/^WS2_LIBS = $/;"	m
+_GNU_SOURCE	compat/jansson/dump.c	8;"	d	file:
+_GNU_SOURCE	compat/jansson/load.c	8;"	d	file:
+_GNU_SOURCE	compat/jansson/strbuffer.c	8;"	d	file:
+_GNU_SOURCE	compat/jansson/value.c	8;"	d	file:
+_GNU_SOURCE	cpu-miner.c	12;"	d	file:
+_GNU_SOURCE	util.c	11;"	d	file:
+_LINUX_LIST_H	elist.h	2;"	d
+__ARM_ARCH_5E_OR_6_OR_7__	scrypt-arm.S	/^#define __ARM_ARCH_5E_OR_6_OR_7__$/;"	d
+__ARM_ARCH_5E_OR_6__	scrypt-arm.S	/^#define __ARM_ARCH_5E_OR_6__$/;"	d
+__COMPAT_H__	compat.h	2;"	d
+__MINER_H__	miner.h	2;"	d
+__TJCOIN_H__	tjcoin.h	2;"	d
+__list_add	elist.h	/^static inline void __list_add(struct list_head *new,$/;"	f
+__list_del	elist.h	/^static inline void __list_del(struct list_head *prev, struct list_head *next)$/;"	f
+__list_splice	elist.h	/^static inline void __list_splice(struct list_head *list,$/;"	f
+__set_errno	bcrypt.c	45;"	d	file:
+_crypt_blowfish_rn	bcrypt.c	/^static void _crypt_blowfish_rn(const char *key, const char *salt, char *output) {$/;"	f	file:
+_libcurl_config	Makefile	/^_libcurl_config = $/;"	m
+_libcurl_config	compat/Makefile	/^_libcurl_config = $/;"	m
+_libcurl_config	compat/jansson/Makefile	/^_libcurl_config = $/;"	m
+_scrypt_best_throughput	scrypt-x64.S	/^_scrypt_best_throughput:$/;"	l
+_scrypt_core	scrypt-arm.S	/^_scrypt_core:$/;"	l
+_scrypt_core	scrypt-x64.S	/^_scrypt_core:$/;"	l
+_scrypt_core	scrypt-x86.S	/^_scrypt_core:$/;"	l
+_scrypt_core_3way	scrypt-arm.S	/^_scrypt_core_3way:$/;"	l
+_scrypt_core_3way	scrypt-x64.S	/^_scrypt_core_3way:$/;"	l
+_scrypt_core_6way	scrypt-x64.S	/^_scrypt_core_6way:$/;"	l
+_sha256_init_4way	sha2-arm.S	/^_sha256_init_4way:$/;"	l
+_sha256_init_4way	sha2-x64.S	/^_sha256_init_4way:$/;"	l
+_sha256_init_4way	sha2-x86.S	/^_sha256_init_4way:$/;"	l
+_sha256_init_8way	sha2-x64.S	/^_sha256_init_8way:$/;"	l
+_sha256_transform	sha2-arm.S	/^_sha256_transform:$/;"	l
+_sha256_transform_4way	sha2-arm.S	/^_sha256_transform_4way:$/;"	l
+_sha256_transform_4way	sha2-x64.S	/^_sha256_transform_4way:$/;"	l
+_sha256_transform_4way	sha2-x86.S	/^_sha256_transform_4way:$/;"	l
+_sha256_transform_8way	sha2-x64.S	/^_sha256_transform_8way:$/;"	l
+_sha256_use_4way	sha2-arm.S	/^_sha256_use_4way:$/;"	l
+_sha256_use_4way	sha2-x64.S	/^_sha256_use_4way:$/;"	l
+_sha256_use_4way	sha2-x86.S	/^_sha256_use_4way:$/;"	l
+_sha256_use_8way	sha2-x64.S	/^_sha256_use_8way:$/;"	l
+_sha256d_ms	sha2-arm.S	/^_sha256d_ms:$/;"	l
+_sha256d_ms_4way	sha2-arm.S	/^_sha256d_ms_4way:$/;"	l
+_sha256d_ms_4way	sha2-x64.S	/^_sha256d_ms_4way:$/;"	l
+_sha256d_ms_4way	sha2-x86.S	/^_sha256d_ms_4way:$/;"	l
+_sha256d_ms_8way	sha2-x64.S	/^_sha256d_ms_8way:$/;"	l
+abs_builddir	Makefile	/^abs_builddir = \/home\/xzhaoyang\/cpuminer2\/cpuminer$/;"	m
+abs_builddir	compat/Makefile	/^abs_builddir = \/home\/xzhaoyang\/cpuminer2\/cpuminer\/compat$/;"	m
+abs_builddir	compat/jansson/Makefile	/^abs_builddir = \/home\/xzhaoyang\/cpuminer2\/cpuminer\/compat\/jansson$/;"	m
+abs_srcdir	Makefile	/^abs_srcdir = \/home\/xzhaoyang\/cpuminer2\/cpuminer$/;"	m
+abs_srcdir	compat/Makefile	/^abs_srcdir = \/home\/xzhaoyang\/cpuminer2\/cpuminer\/compat$/;"	m
+abs_srcdir	compat/jansson/Makefile	/^abs_srcdir = \/home\/xzhaoyang\/cpuminer2\/cpuminer\/compat\/jansson$/;"	m
+abs_top_builddir	Makefile	/^abs_top_builddir = \/home\/xzhaoyang\/cpuminer2\/cpuminer$/;"	m
+abs_top_builddir	compat/Makefile	/^abs_top_builddir = \/home\/xzhaoyang\/cpuminer2\/cpuminer$/;"	m
+abs_top_builddir	compat/jansson/Makefile	/^abs_top_builddir = \/home\/xzhaoyang\/cpuminer2\/cpuminer$/;"	m
+abs_top_srcdir	Makefile	/^abs_top_srcdir = \/home\/xzhaoyang\/cpuminer2\/cpuminer$/;"	m
+abs_top_srcdir	compat/Makefile	/^abs_top_srcdir = \/home\/xzhaoyang\/cpuminer2\/cpuminer$/;"	m
+abs_top_srcdir	compat/jansson/Makefile	/^abs_top_srcdir = \/home\/xzhaoyang\/cpuminer2\/cpuminer$/;"	m
+ac_ct_CC	Makefile	/^ac_ct_CC = gcc$/;"	m
+ac_ct_CC	compat/Makefile	/^ac_ct_CC = gcc$/;"	m
+ac_ct_CC	compat/jansson/Makefile	/^ac_ct_CC = gcc$/;"	m
+ac_fn_c_check_decl	configure	/^ac_fn_c_check_decl ()$/;"	f
+ac_fn_c_check_func	configure	/^ac_fn_c_check_func ()$/;"	f
+ac_fn_c_check_header_compile	configure	/^ac_fn_c_check_header_compile ()$/;"	f
+ac_fn_c_check_header_mongrel	configure	/^ac_fn_c_check_header_mongrel ()$/;"	f
+ac_fn_c_check_type	configure	/^ac_fn_c_check_type ()$/;"	f
+ac_fn_c_try_compile	configure	/^ac_fn_c_try_compile ()$/;"	f
+ac_fn_c_try_cpp	configure	/^ac_fn_c_try_cpp ()$/;"	f
+ac_fn_c_try_link	configure	/^ac_fn_c_try_link ()$/;"	f
+ac_fn_c_try_run	configure	/^ac_fn_c_try_run ()$/;"	f
+accepted_count	cpu-miner.c	/^static unsigned long accepted_count = 0L;$/;"	v	file:
+affine_to_cpu	cpu-miner.c	/^static inline void affine_to_cpu(int id, int cpu)$/;"	f	file:
+algo_names	cpu-miner.c	/^static const char *algo_names[] = {$/;"	v	file:
+all_data_cb	util.c	/^static size_t all_data_cb(const void *ptr, size_t size, size_t nmemb,$/;"	f	file:
+alloca	miner.h	25;"	d
+alloca	miner.h	27;"	d
+alloca	miner.h	30;"	d
+am__CONFIG_DISTCLEAN_FILES	Makefile	/^am__CONFIG_DISTCLEAN_FILES = config.status config.cache config.log \\$/;"	m
+am__aclocal_m4_deps	Makefile	/^am__aclocal_m4_deps = $(top_srcdir)\/configure.ac$/;"	m
+am__aclocal_m4_deps	compat/Makefile	/^am__aclocal_m4_deps = $(top_srcdir)\/configure.ac$/;"	m
+am__aclocal_m4_deps	compat/jansson/Makefile	/^am__aclocal_m4_deps = $(top_srcdir)\/configure.ac$/;"	m
+am__append_1	Makefile	/^am__append_1 = sha2-x86.S scrypt-x86.S$/;"	m
+am__base_list	Makefile	/^am__base_list = \\$/;"	m
+am__can_run_installinfo	Makefile	/^am__can_run_installinfo = \\$/;"	m
+am__can_run_installinfo	compat/Makefile	/^am__can_run_installinfo = \\$/;"	m
+am__can_run_installinfo	compat/jansson/Makefile	/^am__can_run_installinfo = \\$/;"	m
+am__cd	Makefile	/^am__cd = CDPATH="$${ZSH_VERSION+.}$(PATH_SEPARATOR)" && cd$/;"	m
+am__cd	compat/Makefile	/^am__cd = CDPATH="$${ZSH_VERSION+.}$(PATH_SEPARATOR)" && cd$/;"	m
+am__cd	compat/jansson/Makefile	/^am__cd = CDPATH="$${ZSH_VERSION+.}$(PATH_SEPARATOR)" && cd$/;"	m
+am__configure_deps	Makefile	/^am__configure_deps = $(am__aclocal_m4_deps) $(CONFIGURE_DEPENDENCIES) \\$/;"	m
+am__configure_deps	compat/Makefile	/^am__configure_deps = $(am__aclocal_m4_deps) $(CONFIGURE_DEPENDENCIES) \\$/;"	m
+am__configure_deps	compat/jansson/Makefile	/^am__configure_deps = $(am__aclocal_m4_deps) $(CONFIGURE_DEPENDENCIES) \\$/;"	m
+am__depfiles_maybe	Makefile	/^am__depfiles_maybe = depfiles$/;"	m
+am__depfiles_maybe	compat/jansson/Makefile	/^am__depfiles_maybe = depfiles$/;"	m
+am__distuninstallcheck_listfiles	Makefile	/^am__distuninstallcheck_listfiles = $(distuninstallcheck_listfiles) \\$/;"	m
+am__include	Makefile	/^am__include = include$/;"	m
+am__include	compat/Makefile	/^am__include = include$/;"	m
+am__include	compat/jansson/Makefile	/^am__include = include$/;"	m
+am__install_max	Makefile	/^am__install_max = 40$/;"	m
+am__installdirs	Makefile	/^am__installdirs = "$(DESTDIR)$(bindir)" "$(DESTDIR)$(man1dir)"$/;"	m
+am__leading_dot	Makefile	/^am__leading_dot = .$/;"	m
+am__leading_dot	compat/Makefile	/^am__leading_dot = .$/;"	m
+am__leading_dot	compat/jansson/Makefile	/^am__leading_dot = .$/;"	m
+am__make_dryrun	Makefile	/^am__make_dryrun = \\$/;"	m
+am__make_dryrun	compat/Makefile	/^am__make_dryrun = \\$/;"	m
+am__make_dryrun	compat/jansson/Makefile	/^am__make_dryrun = \\$/;"	m
+am__minerd_SOURCES_DIST	Makefile	/^am__minerd_SOURCES_DIST = elist.h miner.h compat.h cpu-miner.c util.c \\$/;"	m
+am__mv	Makefile	/^am__mv = mv -f$/;"	m
+am__mv	compat/jansson/Makefile	/^am__mv = mv -f$/;"	m
+am__nobase_list	Makefile	/^am__nobase_list = $(am__nobase_strip_setup); \\$/;"	m
+am__nobase_strip	Makefile	/^am__nobase_strip = \\$/;"	m
+am__nobase_strip_setup	Makefile	/^am__nobase_strip_setup = \\$/;"	m
+am__objects_1	Makefile	/^am__objects_1 = minerd-sha2-x86.$(OBJEXT) \\$/;"	m
+am__quote	Makefile	/^am__quote = $/;"	m
+am__quote	compat/Makefile	/^am__quote = $/;"	m
+am__quote	compat/jansson/Makefile	/^am__quote = $/;"	m
+am__relativize	Makefile	/^am__relativize = \\$/;"	m
+am__relativize	compat/Makefile	/^am__relativize = \\$/;"	m
+am__remove_distdir	Makefile	/^am__remove_distdir = \\$/;"	m
+am__strip_dir	Makefile	/^am__strip_dir = f=`echo $$p | sed -e 's|^.*\/||'`;$/;"	m
+am__tar	Makefile	/^am__tar = $${TAR-tar} chof - "$$tardir"$/;"	m
+am__tar	compat/Makefile	/^am__tar = $${TAR-tar} chof - "$$tardir"$/;"	m
+am__tar	compat/jansson/Makefile	/^am__tar = $${TAR-tar} chof - "$$tardir"$/;"	m
+am__uninstall_files_from_dir	Makefile	/^am__uninstall_files_from_dir = { \\$/;"	m
+am__untar	Makefile	/^am__untar = $${TAR-tar} xf -$/;"	m
+am__untar	compat/Makefile	/^am__untar = $${TAR-tar} xf -$/;"	m
+am__untar	compat/jansson/Makefile	/^am__untar = $${TAR-tar} xf -$/;"	m
+am__vpath_adj	Makefile	/^am__vpath_adj = case $$p in \\$/;"	m
+am__vpath_adj_setup	Makefile	/^am__vpath_adj_setup = srcdirstrip=`echo "$(srcdir)" | sed 's|.|.|g'`;$/;"	m
+am_libjansson_a_OBJECTS	compat/jansson/Makefile	/^am_libjansson_a_OBJECTS = dump.$(OBJEXT) hashtable.$(OBJEXT) \\$/;"	m
+am_minerd_OBJECTS	Makefile	/^am_minerd_OBJECTS = minerd-cpu-miner.$(OBJEXT) minerd-util.$(OBJEXT) \\$/;"	m
+applog	util.c	/^void applog(int prio, const char *fmt, ...)$/;"	f
+applog_lock	cpu-miner.c	/^pthread_mutex_t applog_lock;$/;"	v
+array_copy	compat/jansson/value.c	/^static void array_copy(json_t **dest, unsigned int dpos,$/;"	f	file:
+array_move	compat/jansson/value.c	/^static void array_move(json_array_t *array, unsigned int dest,$/;"	f	file:
+as_fn_append	config.status	/^  as_fn_append ()$/;"	f
+as_fn_append	configure	/^  as_fn_append ()$/;"	f
+as_fn_arith	config.status	/^  as_fn_arith ()$/;"	f
+as_fn_arith	configure	/^  as_fn_arith ()$/;"	f
+as_fn_error	config.status	/^as_fn_error ()$/;"	f
+as_fn_error	configure	/^as_fn_error ()$/;"	f
+as_fn_executable_p	config.status	/^as_fn_executable_p ()$/;"	f
+as_fn_executable_p	configure	/^as_fn_executable_p ()$/;"	f
+as_fn_exit	config.status	/^as_fn_exit ()$/;"	f
+as_fn_exit	configure	/^as_fn_exit ()$/;"	f
+as_fn_failure	configure	/^as_fn_failure () { as_fn_return 1; }$/;"	f
+as_fn_mkdir_p	config.status	/^as_fn_mkdir_p ()$/;"	f
+as_fn_mkdir_p	configure	/^as_fn_mkdir_p ()$/;"	f
+as_fn_ret_failure	configure	/^as_fn_ret_failure () { return 1; }$/;"	f
+as_fn_ret_success	configure	/^as_fn_ret_success () { return 0; }$/;"	f
+as_fn_set_status	config.status	/^as_fn_set_status ()$/;"	f
+as_fn_set_status	configure	/^as_fn_set_status ()$/;"	f
+as_fn_success	configure	/^as_fn_success () { as_fn_return 0; }$/;"	f
+as_fn_unset	config.status	/^as_fn_unset ()$/;"	f
+as_fn_unset	configure	/^as_fn_unset ()$/;"	f
+bcrypt	bcrypt.c	/^void bcrypt(const char *in, char *out)$/;"	f
+be32dec	miner.h	/^static inline uint32_t be32dec(const void *pp)$/;"	f
+be32enc	miner.h	/^static inline void be32enc(void *pp, uint32_t x)$/;"	f
+bin2hex	util.c	/^char *bin2hex(const unsigned char *p, size_t len)$/;"	f
+bin_PROGRAMS	Makefile	/^bin_PROGRAMS = minerd$(EXEEXT)$/;"	m
+bindir	Makefile	/^bindir = ${exec_prefix}\/bin$/;"	m
+bindir	compat/Makefile	/^bindir = ${exec_prefix}\/bin$/;"	m
+bindir	compat/jansson/Makefile	/^bindir = ${exec_prefix}\/bin$/;"	m
+bswap_32	miner.h	68;"	d
+bucket_is_empty	compat/jansson/hashtable.c	/^static inline int bucket_is_empty(hashtable_t *hashtable, bucket_t *bucket)$/;"	f	file:
+bucket_t	compat/jansson/hashtable.c	/^typedef struct hashtable_bucket bucket_t;$/;"	t	typeref:struct:hashtable_bucket	file:
+buckets	compat/jansson/hashtable.h	/^    struct hashtable_bucket *buckets;$/;"	m	struct:hashtable	typeref:struct:hashtable::hashtable_bucket
+buf	util.c	/^	const void	*buf;$/;"	m	struct:upload_buffer	file:
+buf	util.c	/^	void		*buf;$/;"	m	struct:data_buffer	file:
+buffer	compat/jansson/dump.c	/^    char *buffer;$/;"	m	struct:string	file:
+buffer	compat/jansson/load.c	/^    char buffer[5];$/;"	m	struct:__anon11	file:
+buffer_pos	compat/jansson/load.c	/^    int buffer_pos;$/;"	m	struct:__anon11	file:
+build	Makefile	/^build = i686-pc-linux-gnu$/;"	m
+build	compat/Makefile	/^build = i686-pc-linux-gnu$/;"	m
+build	compat/jansson/Makefile	/^build = i686-pc-linux-gnu$/;"	m
+build_alias	Makefile	/^build_alias = $/;"	m
+build_alias	compat/Makefile	/^build_alias = $/;"	m
+build_alias	compat/jansson/Makefile	/^build_alias = $/;"	m
+build_cpu	Makefile	/^build_cpu = i686$/;"	m
+build_cpu	compat/Makefile	/^build_cpu = i686$/;"	m
+build_cpu	compat/jansson/Makefile	/^build_cpu = i686$/;"	m
+build_os	Makefile	/^build_os = linux-gnu$/;"	m
+build_os	compat/Makefile	/^build_os = linux-gnu$/;"	m
+build_os	compat/jansson/Makefile	/^build_os = linux-gnu$/;"	m
+build_triplet	Makefile	/^build_triplet = i686-pc-linux-gnu$/;"	m
+build_triplet	compat/Makefile	/^build_triplet = i686-pc-linux-gnu$/;"	m
+build_triplet	compat/jansson/Makefile	/^build_triplet = i686-pc-linux-gnu$/;"	m
+build_vendor	Makefile	/^build_vendor = pc$/;"	m
+build_vendor	compat/Makefile	/^build_vendor = pc$/;"	m
+build_vendor	compat/jansson/Makefile	/^build_vendor = pc$/;"	m
+builddir	Makefile	/^builddir = .$/;"	m
+builddir	compat/Makefile	/^builddir = .$/;"	m
+builddir	compat/jansson/Makefile	/^builddir = .$/;"	m
+clean	bcrypt.c	/^static void clean(void *data, int size) {$/;"	f	file:
+clean	miner.h	/^	bool clean;$/;"	m	struct:stratum_job
+cmd	cpu-miner.c	/^	enum workio_commands	cmd;$/;"	m	struct:workio_cmd	typeref:enum:workio_cmd::workio_commands	file:
+cmp_keys	compat/jansson/hashtable.h	/^    key_cmp_fn cmp_keys;  \/* returns non-zero for equal keys *\/$/;"	m	struct:hashtable
+coinbase	miner.h	/^	unsigned char *coinbase;$/;"	m	struct:stratum_job
+coinbase_size	miner.h	/^	size_t coinbase_size;$/;"	m	struct:stratum_job
+column	compat/jansson/load.c	/^    int line, column;$/;"	m	struct:__anon12	file:
+cond	util.c	/^	pthread_cond_t		cond;$/;"	m	struct:thread_q	file:
+container_of	compat/jansson/hashtable.c	17;"	d	file:
+container_of	compat/jansson/jansson_private.h	14;"	d
+curl	miner.h	/^	CURL *curl;$/;"	m	struct:stratum_ctx
+curl_err_str	miner.h	/^	char curl_err_str[CURL_ERROR_SIZE];$/;"	m	struct:stratum_ctx
+curl_url	miner.h	/^	char *curl_url;$/;"	m	struct:stratum_ctx
+data	compat/jansson/load.c	/^    const char *data;$/;"	m	struct:__anon14	file:
+data	compat/jansson/load.c	/^    void *data;$/;"	m	struct:__anon11	file:
+data	cpu-miner.c	/^	uint32_t data[32];$/;"	m	struct:work	file:
+data	util.c	/^	void			*data;$/;"	m	struct:tq_ent	file:
+data_buffer	util.c	/^struct data_buffer {$/;"	s	file:
+databuf_free	util.c	/^static void databuf_free(struct data_buffer *db)$/;"	f	file:
+datadir	Makefile	/^datadir = ${datarootdir}$/;"	m
+datadir	compat/Makefile	/^datadir = ${datarootdir}$/;"	m
+datadir	compat/jansson/Makefile	/^datadir = ${datarootdir}$/;"	m
+datarootdir	Makefile	/^datarootdir = ${prefix}\/share$/;"	m
+datarootdir	compat/Makefile	/^datarootdir = ${prefix}\/share$/;"	m
+datarootdir	compat/jansson/Makefile	/^datarootdir = ${prefix}\/share$/;"	m
+decode_unicode_escape	compat/jansson/load.c	/^static int32_t decode_unicode_escape(const char *str)$/;"	f	file:
+depcomp	Makefile	/^depcomp = $(SHELL) $(top_srcdir)\/depcomp$/;"	m
+depcomp	compat/jansson/Makefile	/^depcomp = $(SHELL) $(top_srcdir)\/depcomp$/;"	m
+diff	miner.h	/^	double diff;$/;"	m	struct:stratum_job
+diff_to_target	util.c	/^void diff_to_target(uint32_t *target, double diff)$/;"	f
+dist_man_MANS	Makefile	/^dist_man_MANS = minerd.1$/;"	m
+distcleancheck_listfiles	Makefile	/^distcleancheck_listfiles = find . -type f -print$/;"	m
+distdir	Makefile	/^distdir = $(PACKAGE)-$(VERSION)$/;"	m
+distuninstallcheck_listfiles	Makefile	/^distuninstallcheck_listfiles = find . -type f -print$/;"	m
+do_dump	compat/jansson/dump.c	/^static int do_dump(const json_t *json, unsigned long flags, int depth,$/;"	f	file:
+docdir	Makefile	/^docdir = ${datarootdir}\/doc\/${PACKAGE_TARNAME}$/;"	m
+docdir	compat/Makefile	/^docdir = ${datarootdir}\/doc\/${PACKAGE_TARNAME}$/;"	m
+docdir	compat/jansson/Makefile	/^docdir = ${datarootdir}\/doc\/${PACKAGE_TARNAME}$/;"	m
+drop_policy	cpu-miner.c	/^static inline void drop_policy(void)$/;"	f	file:
+dump_func	compat/jansson/dump.c	/^typedef int (*dump_func)(const char *buffer, int size, void *data);$/;"	t	file:
+dump_indent	compat/jansson/dump.c	/^static int dump_indent(unsigned long flags, int depth, int space, dump_func dump, void *data)$/;"	f	file:
+dump_string	compat/jansson/dump.c	/^static int dump_string(const char *str, int ascii, dump_func dump, void *data)$/;"	f	file:
+dump_to_file	compat/jansson/dump.c	/^static int dump_to_file(const char *buffer, int size, void *data)$/;"	f	file:
+dump_to_strbuffer	compat/jansson/dump.c	/^static int dump_to_strbuffer(const char *buffer, int size, void *data)$/;"	f	file:
+dvidir	Makefile	/^dvidir = ${docdir}$/;"	m
+dvidir	compat/Makefile	/^dvidir = ${docdir}$/;"	m
+dvidir	compat/jansson/Makefile	/^dvidir = ${docdir}$/;"	m
+entries	compat/jansson/jansson_private.h	/^    unsigned int entries;$/;"	m	struct:__anon6
+eof	compat/jansson/load.c	/^    eof_func eof;$/;"	m	struct:__anon11	file:
+eof_func	compat/jansson/load.c	/^typedef int (*eof_func)(void *data);$/;"	t	file:
+error_init	compat/jansson/load.c	/^static void error_init(json_error_t *error)$/;"	f	file:
+error_set	compat/jansson/load.c	/^static void error_set(json_error_t *error, const lex_t *lex,$/;"	f	file:
+exec_prefix	Makefile	/^exec_prefix = ${prefix}$/;"	m
+exec_prefix	compat/Makefile	/^exec_prefix = ${prefix}$/;"	m
+exec_prefix	compat/jansson/Makefile	/^exec_prefix = ${prefix}$/;"	m
+finalblk	scrypt.c	/^static const uint32_t finalblk[16] = {$/;"	v	file:
+finalblk_4way	scrypt.c	/^static const uint32_t finalblk_4way[4 * 16] __attribute__((aligned(16))) = {$/;"	v	file:
+finalblk_8way	scrypt.c	/^static const uint32_t finalblk_8way[8 * 16] __attribute__((aligned(32))) = {$/;"	v	file:
+first	compat/jansson/hashtable.h	/^    struct hashtable_list *first;$/;"	m	struct:hashtable_bucket	typeref:struct:hashtable_bucket::hashtable_list
+flag	cpu-miner.c	/^	int *flag;$/;"	m	struct:option	file:
+free_fn	compat/jansson/hashtable.h	/^typedef void (*free_fn)(void *key);$/;"	t
+free_key	compat/jansson/hashtable.h	/^    free_fn free_key;$/;"	m	struct:hashtable
+free_value	compat/jansson/hashtable.h	/^    free_fn free_value;$/;"	m	struct:hashtable
+frozen	util.c	/^	bool frozen;$/;"	m	struct:thread_q	file:
+fulltest	util.c	/^bool fulltest(const uint32_t *hash, const uint32_t *target)$/;"	f
+func_cl_dashL	compile	/^func_cl_dashL ()$/;"	f
+func_cl_dashl	compile	/^func_cl_dashl ()$/;"	f
+func_cl_wrapper	compile	/^func_cl_wrapper ()$/;"	f
+func_file_conv	compile	/^func_file_conv ()$/;"	f
+g_work	cpu-miner.c	/^static struct work g_work;$/;"	v	typeref:struct:work	file:
+g_work_lock	cpu-miner.c	/^static pthread_mutex_t g_work_lock;$/;"	v	file:
+g_work_time	cpu-miner.c	/^static time_t g_work_time;$/;"	v	file:
+get	compat/jansson/load.c	/^    get_func get;$/;"	m	struct:__anon11	file:
+get_func	compat/jansson/load.c	/^typedef int (*get_func)(void *data);$/;"	t	file:
+get_stratum_session_id	util.c	/^static const char *get_stratum_session_id(json_t *val)$/;"	f	file:
+get_upstream_work	cpu-miner.c	/^static bool get_upstream_work(CURL *curl, struct work *work)$/;"	f	file:
+get_work	cpu-miner.c	/^static bool get_work(struct thr_info *thr, struct work *work)$/;"	f	file:
+has_arg	cpu-miner.c	/^	int has_arg;$/;"	m	struct:option	file:
+hash	compat/jansson/hashtable.h	/^    unsigned int hash;$/;"	m	struct:hashtable_pair
+hash_key	compat/jansson/hashtable.h	/^    key_hash_fn hash_key;$/;"	m	struct:hashtable
+hash_key	compat/jansson/value.c	/^static unsigned int hash_key(const void *ptr)$/;"	f	file:
+hashtable	compat/jansson/hashtable.h	/^typedef struct hashtable {$/;"	s
+hashtable	compat/jansson/jansson_private.h	/^    hashtable_t hashtable;$/;"	m	struct:__anon5
+hashtable_bucket	compat/jansson/hashtable.h	/^struct hashtable_bucket {$/;"	s
+hashtable_clear	compat/jansson/hashtable.c	/^void hashtable_clear(hashtable_t *hashtable)$/;"	f
+hashtable_close	compat/jansson/hashtable.c	/^void hashtable_close(hashtable_t *hashtable)$/;"	f
+hashtable_create	compat/jansson/hashtable.c	/^hashtable_t *hashtable_create(key_hash_fn hash_key, key_cmp_fn cmp_keys,$/;"	f
+hashtable_del	compat/jansson/hashtable.c	/^int hashtable_del(hashtable_t *hashtable, const void *key)$/;"	f
+hashtable_destroy	compat/jansson/hashtable.c	/^void hashtable_destroy(hashtable_t *hashtable)$/;"	f
+hashtable_do_clear	compat/jansson/hashtable.c	/^static void hashtable_do_clear(hashtable_t *hashtable)$/;"	f	file:
+hashtable_do_del	compat/jansson/hashtable.c	/^static int hashtable_do_del(hashtable_t *hashtable,$/;"	f	file:
+hashtable_do_rehash	compat/jansson/hashtable.c	/^static int hashtable_do_rehash(hashtable_t *hashtable)$/;"	f	file:
+hashtable_find_pair	compat/jansson/hashtable.c	/^static pair_t *hashtable_find_pair(hashtable_t *hashtable, bucket_t *bucket,$/;"	f	file:
+hashtable_get	compat/jansson/hashtable.c	/^void *hashtable_get(hashtable_t *hashtable, const void *key)$/;"	f
+hashtable_init	compat/jansson/hashtable.c	/^int hashtable_init(hashtable_t *hashtable,$/;"	f
+hashtable_iter	compat/jansson/hashtable.c	/^void *hashtable_iter(hashtable_t *hashtable)$/;"	f
+hashtable_iter_at	compat/jansson/hashtable.c	/^void *hashtable_iter_at(hashtable_t *hashtable, const void *key)$/;"	f
+hashtable_iter_key	compat/jansson/hashtable.c	/^void *hashtable_iter_key(void *iter)$/;"	f
+hashtable_iter_next	compat/jansson/hashtable.c	/^void *hashtable_iter_next(hashtable_t *hashtable, void *iter)$/;"	f
+hashtable_iter_set	compat/jansson/hashtable.c	/^void hashtable_iter_set(hashtable_t *hashtable, void *iter, void *value)$/;"	f
+hashtable_iter_value	compat/jansson/hashtable.c	/^void *hashtable_iter_value(void *iter)$/;"	f
+hashtable_list	compat/jansson/hashtable.h	/^struct hashtable_list {$/;"	s
+hashtable_pair	compat/jansson/hashtable.h	/^struct hashtable_pair {$/;"	s
+hashtable_set	compat/jansson/hashtable.c	/^int hashtable_set(hashtable_t *hashtable, void *key, void *value)$/;"	f
+hashtable_t	compat/jansson/hashtable.h	/^} hashtable_t;$/;"	t	typeref:struct:hashtable
+have_longpoll	cpu-miner.c	/^bool have_longpoll = false;$/;"	v
+have_stratum	cpu-miner.c	/^bool have_stratum = false;$/;"	v
+header_info	util.c	/^struct header_info {$/;"	s	file:
+hex2bin	util.c	/^bool hex2bin(unsigned char *p, const char *hexstr, size_t len)$/;"	f
+host	Makefile	/^host = i686-pc-linux-gnu$/;"	m
+host	compat/Makefile	/^host = i686-pc-linux-gnu$/;"	m
+host	compat/jansson/Makefile	/^host = i686-pc-linux-gnu$/;"	m
+host_alias	Makefile	/^host_alias = $/;"	m
+host_alias	compat/Makefile	/^host_alias = $/;"	m
+host_alias	compat/jansson/Makefile	/^host_alias = $/;"	m
+host_cpu	Makefile	/^host_cpu = i686$/;"	m
+host_cpu	compat/Makefile	/^host_cpu = i686$/;"	m
+host_cpu	compat/jansson/Makefile	/^host_cpu = i686$/;"	m
+host_os	Makefile	/^host_os = linux-gnu$/;"	m
+host_os	compat/Makefile	/^host_os = linux-gnu$/;"	m
+host_os	compat/jansson/Makefile	/^host_os = linux-gnu$/;"	m
+host_triplet	Makefile	/^host_triplet = i686-pc-linux-gnu$/;"	m
+host_triplet	compat/Makefile	/^host_triplet = i686-pc-linux-gnu$/;"	m
+host_triplet	compat/jansson/Makefile	/^host_triplet = i686-pc-linux-gnu$/;"	m
+host_vendor	Makefile	/^host_vendor = pc$/;"	m
+host_vendor	compat/Makefile	/^host_vendor = pc$/;"	m
+host_vendor	compat/jansson/Makefile	/^host_vendor = pc$/;"	m
+htmldir	Makefile	/^htmldir = ${docdir}$/;"	m
+htmldir	compat/Makefile	/^htmldir = ${docdir}$/;"	m
+htmldir	compat/jansson/Makefile	/^htmldir = ${docdir}$/;"	m
+id	miner.h	/^	int		id;$/;"	m	struct:thr_info
+includedir	Makefile	/^includedir = ${prefix}\/include$/;"	m
+includedir	compat/Makefile	/^includedir = ${prefix}\/include$/;"	m
+includedir	compat/jansson/Makefile	/^includedir = ${prefix}\/include$/;"	m
+infodir	Makefile	/^infodir = ${datarootdir}\/info$/;"	m
+infodir	compat/Makefile	/^infodir = ${datarootdir}\/info$/;"	m
+infodir	compat/jansson/Makefile	/^infodir = ${datarootdir}\/info$/;"	m
+innerpad	scrypt.c	/^static const uint32_t innerpad[11] = {$/;"	v	file:
+innerpad_4way	scrypt.c	/^static const uint32_t innerpad_4way[4 * 11] = {$/;"	v	file:
+insert_to_bucket	compat/jansson/hashtable.c	/^static void insert_to_bucket(hashtable_t *hashtable, bucket_t *bucket,$/;"	f	file:
+install_sh	Makefile	/^install_sh = ${SHELL} \/home\/xzhaoyang\/cpuminer2\/cpuminer\/install-sh$/;"	m
+install_sh	compat/Makefile	/^install_sh = ${SHELL} \/home\/xzhaoyang\/cpuminer2\/cpuminer\/install-sh$/;"	m
+install_sh	compat/jansson/Makefile	/^install_sh = ${SHELL} \/home\/xzhaoyang\/cpuminer2\/cpuminer\/install-sh$/;"	m
+install_sh_DATA	Makefile	/^install_sh_DATA = $(install_sh) -c -m 644$/;"	m
+install_sh_DATA	compat/Makefile	/^install_sh_DATA = $(install_sh) -c -m 644$/;"	m
+install_sh_DATA	compat/jansson/Makefile	/^install_sh_DATA = $(install_sh) -c -m 644$/;"	m
+install_sh_PROGRAM	Makefile	/^install_sh_PROGRAM = $(install_sh) -c$/;"	m
+install_sh_PROGRAM	compat/Makefile	/^install_sh_PROGRAM = $(install_sh) -c$/;"	m
+install_sh_PROGRAM	compat/jansson/Makefile	/^install_sh_PROGRAM = $(install_sh) -c$/;"	m
+install_sh_SCRIPT	Makefile	/^install_sh_SCRIPT = $(install_sh) -c$/;"	m
+install_sh_SCRIPT	compat/Makefile	/^install_sh_SCRIPT = $(install_sh) -c$/;"	m
+install_sh_SCRIPT	compat/jansson/Makefile	/^install_sh_SCRIPT = $(install_sh) -c$/;"	m
+integer	compat/jansson/load.c	/^        int integer;$/;"	m	union:__anon12::__anon13	file:
+job	miner.h	/^	struct stratum_job job;$/;"	m	struct:stratum_ctx	typeref:struct:stratum_ctx::stratum_job
+job_id	cpu-miner.c	/^	char job_id[128];$/;"	m	struct:work	file:
+job_id	miner.h	/^	char *job_id;$/;"	m	struct:stratum_job
+jobj_binary	cpu-miner.c	/^static bool jobj_binary(const json_t *obj, const char *key,$/;"	f	file:
+json	compat/jansson/jansson_private.h	/^    json_t json;$/;"	m	struct:__anon5
+json	compat/jansson/jansson_private.h	/^    json_t json;$/;"	m	struct:__anon6
+json	compat/jansson/jansson_private.h	/^    json_t json;$/;"	m	struct:__anon7
+json	compat/jansson/jansson_private.h	/^    json_t json;$/;"	m	struct:__anon8
+json	compat/jansson/jansson_private.h	/^    json_t json;$/;"	m	struct:__anon9
+json_array	compat/jansson/value.c	/^json_t *json_array(void)$/;"	f
+json_array_append	compat/jansson/jansson.h	/^int json_array_append(json_t *array, json_t *value)$/;"	f
+json_array_append_new	compat/jansson/value.c	/^int json_array_append_new(json_t *json, json_t *value)$/;"	f
+json_array_clear	compat/jansson/value.c	/^int json_array_clear(json_t *json)$/;"	f
+json_array_copy	compat/jansson/value.c	/^static json_t *json_array_copy(json_t *array)$/;"	f	file:
+json_array_deep_copy	compat/jansson/value.c	/^static json_t *json_array_deep_copy(json_t *array)$/;"	f	file:
+json_array_equal	compat/jansson/value.c	/^static int json_array_equal(json_t *array1, json_t *array2)$/;"	f	file:
+json_array_extend	compat/jansson/value.c	/^int json_array_extend(json_t *json, json_t *other_json)$/;"	f
+json_array_get	compat/jansson/value.c	/^json_t *json_array_get(const json_t *json, unsigned int index)$/;"	f
+json_array_grow	compat/jansson/value.c	/^static json_t **json_array_grow(json_array_t *array,$/;"	f	file:
+json_array_insert	compat/jansson/jansson.h	/^int json_array_insert(json_t *array, unsigned int index, json_t *value)$/;"	f
+json_array_insert_new	compat/jansson/value.c	/^int json_array_insert_new(json_t *json, unsigned int index, json_t *value)$/;"	f
+json_array_remove	compat/jansson/value.c	/^int json_array_remove(json_t *json, unsigned int index)$/;"	f
+json_array_set	compat/jansson/jansson.h	/^int json_array_set(json_t *array, unsigned int index, json_t *value)$/;"	f
+json_array_set_new	compat/jansson/value.c	/^int json_array_set_new(json_t *json, unsigned int index, json_t *value)$/;"	f
+json_array_size	compat/jansson/value.c	/^unsigned int json_array_size(const json_t *json)$/;"	f
+json_array_t	compat/jansson/jansson_private.h	/^} json_array_t;$/;"	t	typeref:struct:__anon6
+json_copy	compat/jansson/value.c	/^json_t *json_copy(json_t *json)$/;"	f
+json_decref	compat/jansson/jansson.h	/^void json_decref(json_t *json)$/;"	f
+json_deep_copy	compat/jansson/value.c	/^json_t *json_deep_copy(json_t *json)$/;"	f
+json_delete	compat/jansson/value.c	/^void json_delete(json_t *json)$/;"	f
+json_delete_array	compat/jansson/value.c	/^static void json_delete_array(json_array_t *array)$/;"	f	file:
+json_delete_integer	compat/jansson/value.c	/^static void json_delete_integer(json_integer_t *integer)$/;"	f	file:
+json_delete_object	compat/jansson/value.c	/^static void json_delete_object(json_object_t *object)$/;"	f	file:
+json_delete_real	compat/jansson/value.c	/^static void json_delete_real(json_real_t *real)$/;"	f	file:
+json_delete_string	compat/jansson/value.c	/^static void json_delete_string(json_string_t *string)$/;"	f	file:
+json_dump_file	compat/jansson/dump.c	/^int json_dump_file(const json_t *json, const char *path, unsigned long flags)$/;"	f
+json_dumpf	compat/jansson/dump.c	/^int json_dumpf(const json_t *json, FILE *output, unsigned long flags)$/;"	f
+json_dumps	compat/jansson/dump.c	/^char *json_dumps(const json_t *json, unsigned long flags)$/;"	f
+json_equal	compat/jansson/value.c	/^int json_equal(json_t *json1, json_t *json2)$/;"	f
+json_error_t	compat/jansson/jansson.h	/^} json_error_t;$/;"	t	typeref:struct:__anon4
+json_false	compat/jansson/value.c	/^json_t *json_false(void)$/;"	f
+json_incref	compat/jansson/jansson.h	/^json_t *json_incref(json_t *json)$/;"	f
+json_init	compat/jansson/value.c	/^static inline void json_init(json_t *json, json_type type)$/;"	f	file:
+json_integer	compat/jansson/value.c	/^json_t *json_integer(int value)$/;"	f
+json_integer_copy	compat/jansson/value.c	/^static json_t *json_integer_copy(json_t *integer)$/;"	f	file:
+json_integer_equal	compat/jansson/value.c	/^static int json_integer_equal(json_t *integer1, json_t *integer2)$/;"	f	file:
+json_integer_set	compat/jansson/value.c	/^int json_integer_set(json_t *json, int value)$/;"	f
+json_integer_t	compat/jansson/jansson_private.h	/^} json_integer_t;$/;"	t	typeref:struct:__anon9
+json_integer_value	compat/jansson/value.c	/^int json_integer_value(const json_t *json)$/;"	f
+json_is_array	compat/jansson/jansson.h	40;"	d
+json_is_boolean	compat/jansson/jansson.h	47;"	d
+json_is_false	compat/jansson/jansson.h	46;"	d
+json_is_integer	compat/jansson/jansson.h	42;"	d
+json_is_null	compat/jansson/jansson.h	48;"	d
+json_is_number	compat/jansson/jansson.h	44;"	d
+json_is_object	compat/jansson/jansson.h	39;"	d
+json_is_real	compat/jansson/jansson.h	43;"	d
+json_is_string	compat/jansson/jansson.h	41;"	d
+json_is_true	compat/jansson/jansson.h	45;"	d
+json_load_file	compat/jansson/load.c	/^json_t *json_load_file(const char *path, json_error_t *error)$/;"	f
+json_loadf	compat/jansson/load.c	/^json_t *json_loadf(FILE *input, json_error_t *error)$/;"	f
+json_loads	compat/jansson/load.c	/^json_t *json_loads(const char *string, json_error_t *error)$/;"	f
+json_null	compat/jansson/value.c	/^json_t *json_null(void)$/;"	f
+json_number_value	compat/jansson/value.c	/^double json_number_value(const json_t *json)$/;"	f
+json_object	compat/jansson/value.c	/^json_t *json_object(void)$/;"	f
+json_object_clear	compat/jansson/value.c	/^int json_object_clear(json_t *json)$/;"	f
+json_object_copy	compat/jansson/value.c	/^static json_t *json_object_copy(json_t *object)$/;"	f	file:
+json_object_deep_copy	compat/jansson/value.c	/^static json_t *json_object_deep_copy(json_t *object)$/;"	f	file:
+json_object_del	compat/jansson/value.c	/^int json_object_del(json_t *json, const char *key)$/;"	f
+json_object_equal	compat/jansson/value.c	/^static int json_object_equal(json_t *object1, json_t *object2)$/;"	f	file:
+json_object_get	compat/jansson/value.c	/^json_t *json_object_get(const json_t *json, const char *key)$/;"	f
+json_object_iter	compat/jansson/value.c	/^void *json_object_iter(json_t *json)$/;"	f
+json_object_iter_at	compat/jansson/value.c	/^void *json_object_iter_at(json_t *json, const char *key)$/;"	f
+json_object_iter_key	compat/jansson/value.c	/^const char *json_object_iter_key(void *iter)$/;"	f
+json_object_iter_next	compat/jansson/value.c	/^void *json_object_iter_next(json_t *json, void *iter)$/;"	f
+json_object_iter_set	compat/jansson/jansson.h	/^int json_object_iter_set(json_t *object, void *iter, json_t *value)$/;"	f
+json_object_iter_set_new	compat/jansson/value.c	/^int json_object_iter_set_new(json_t *json, void *iter, json_t *value)$/;"	f
+json_object_iter_value	compat/jansson/value.c	/^json_t *json_object_iter_value(void *iter)$/;"	f
+json_object_set	compat/jansson/jansson.h	/^int json_object_set(json_t *object, const char *key, json_t *value)$/;"	f
+json_object_set_new	compat/jansson/value.c	/^int json_object_set_new(json_t *json, const char *key, json_t *value)$/;"	f
+json_object_set_new_nocheck	compat/jansson/value.c	/^int json_object_set_new_nocheck(json_t *json, const char *key, json_t *value)$/;"	f
+json_object_set_nocheck	compat/jansson/jansson.h	/^int json_object_set_nocheck(json_t *object, const char *key, json_t *value)$/;"	f
+json_object_size	compat/jansson/value.c	/^unsigned int json_object_size(const json_t *json)$/;"	f
+json_object_t	compat/jansson/jansson_private.h	/^} json_object_t;$/;"	t	typeref:struct:__anon5
+json_object_update	compat/jansson/value.c	/^int json_object_update(json_t *object, json_t *other)$/;"	f
+json_real	compat/jansson/value.c	/^json_t *json_real(double value)$/;"	f
+json_real_copy	compat/jansson/value.c	/^static json_t *json_real_copy(json_t *real)$/;"	f	file:
+json_real_equal	compat/jansson/value.c	/^static int json_real_equal(json_t *real1, json_t *real2)$/;"	f	file:
+json_real_set	compat/jansson/value.c	/^int json_real_set(json_t *json, double value)$/;"	f
+json_real_t	compat/jansson/jansson_private.h	/^} json_real_t;$/;"	t	typeref:struct:__anon8
+json_real_value	compat/jansson/value.c	/^double json_real_value(const json_t *json)$/;"	f
+json_rpc_call	util.c	/^json_t *json_rpc_call(CURL *curl, const char *url,$/;"	f
+json_string	compat/jansson/value.c	/^json_t *json_string(const char *value)$/;"	f
+json_string_copy	compat/jansson/value.c	/^static json_t *json_string_copy(json_t *string)$/;"	f	file:
+json_string_equal	compat/jansson/value.c	/^static int json_string_equal(json_t *string1, json_t *string2)$/;"	f	file:
+json_string_nocheck	compat/jansson/value.c	/^json_t *json_string_nocheck(const char *value)$/;"	f
+json_string_set	compat/jansson/value.c	/^int json_string_set(json_t *json, const char *value)$/;"	f
+json_string_set_nocheck	compat/jansson/value.c	/^int json_string_set_nocheck(json_t *json, const char *value)$/;"	f
+json_string_t	compat/jansson/jansson_private.h	/^} json_string_t;$/;"	t	typeref:struct:__anon7
+json_string_value	compat/jansson/value.c	/^const char *json_string_value(const json_t *json)$/;"	f
+json_t	compat/jansson/jansson.h	/^} json_t;$/;"	t	typeref:struct:__anon3
+json_to_array	compat/jansson/jansson_private.h	48;"	d
+json_to_integer	compat/jansson/jansson_private.h	51;"	d
+json_to_object	compat/jansson/jansson_private.h	47;"	d
+json_to_real	compat/jansson/jansson_private.h	50;"	d
+json_to_string	compat/jansson/jansson_private.h	49;"	d
+json_true	compat/jansson/value.c	/^json_t *json_true(void)$/;"	f
+json_type	compat/jansson/jansson.h	/^} json_type;$/;"	t	typeref:enum:__anon2
+json_typeof	compat/jansson/jansson.h	38;"	d
+jsonp_object_iter_fullkey	compat/jansson/value.c	/^const object_key_t *jsonp_object_iter_fullkey(void *iter)$/;"	f
+key	compat/jansson/hashtable.h	/^    void *key;$/;"	m	struct:hashtable_pair
+key	compat/jansson/jansson_private.h	/^    char key[];$/;"	m	struct:__anon10
+key_cmp_fn	compat/jansson/hashtable.h	/^typedef int (*key_cmp_fn)(const void *key1, const void *key2);$/;"	t
+key_equal	compat/jansson/value.c	/^static int key_equal(const void *ptr1, const void *ptr2)$/;"	f	file:
+key_hash_fn	compat/jansson/hashtable.h	/^typedef unsigned int (*key_hash_fn)(const void *key);$/;"	t
+keypad	scrypt.c	/^static const uint32_t keypad[12] = {$/;"	v	file:
+keypad_4way	scrypt.c	/^static const uint32_t keypad_4way[4 * 12] = {$/;"	v	file:
+last	compat/jansson/hashtable.h	/^    struct hashtable_list *last;$/;"	m	struct:hashtable_bucket	typeref:struct:hashtable_bucket::hashtable_list
+le32dec	miner.h	/^static inline uint32_t le32dec(const void *pp)$/;"	f
+le32enc	miner.h	/^static inline void le32enc(void *pp, uint32_t x)$/;"	f
+len	util.c	/^	size_t		len;$/;"	m	struct:data_buffer	file:
+len	util.c	/^	size_t		len;$/;"	m	struct:upload_buffer	file:
+length	compat/jansson/dump.c	/^    int length;$/;"	m	struct:string	file:
+length	compat/jansson/strbuffer.h	/^    int length;   \/* bytes used *\/$/;"	m	struct:__anon15
+lex_close	compat/jansson/load.c	/^static void lex_close(lex_t *lex)$/;"	f	file:
+lex_eof	compat/jansson/load.c	/^static int lex_eof(lex_t *lex)$/;"	f	file:
+lex_get	compat/jansson/load.c	/^static int lex_get(lex_t *lex, json_error_t *error)$/;"	f	file:
+lex_get_save	compat/jansson/load.c	/^static int lex_get_save(lex_t *lex, json_error_t *error)$/;"	f	file:
+lex_init	compat/jansson/load.c	/^static int lex_init(lex_t *lex, get_func get, eof_func eof, void *data)$/;"	f	file:
+lex_save	compat/jansson/load.c	/^static void lex_save(lex_t *lex, char c)$/;"	f	file:
+lex_save_cached	compat/jansson/load.c	/^static void lex_save_cached(lex_t *lex)$/;"	f	file:
+lex_scan	compat/jansson/load.c	/^static int lex_scan(lex_t *lex, json_error_t *error)$/;"	f	file:
+lex_scan_number	compat/jansson/load.c	/^static int lex_scan_number(lex_t *lex, char c, json_error_t *error)$/;"	f	file:
+lex_scan_string	compat/jansson/load.c	/^static void lex_scan_string(lex_t *lex, json_error_t *error)$/;"	f	file:
+lex_steal_string	compat/jansson/load.c	/^static char *lex_steal_string(lex_t *lex)$/;"	f	file:
+lex_t	compat/jansson/load.c	/^} lex_t;$/;"	t	typeref:struct:__anon12	file:
+lex_unget_unsave	compat/jansson/load.c	/^static void lex_unget_unsave(lex_t *lex, char c)$/;"	f	file:
+libdir	Makefile	/^libdir = ${exec_prefix}\/lib$/;"	m
+libdir	compat/Makefile	/^libdir = ${exec_prefix}\/lib$/;"	m
+libdir	compat/jansson/Makefile	/^libdir = ${exec_prefix}\/lib$/;"	m
+libexecdir	Makefile	/^libexecdir = ${exec_prefix}\/libexec$/;"	m
+libexecdir	compat/Makefile	/^libexecdir = ${exec_prefix}\/libexec$/;"	m
+libexecdir	compat/jansson/Makefile	/^libexecdir = ${exec_prefix}\/libexec$/;"	m
+libjansson_a_AR	compat/jansson/Makefile	/^libjansson_a_AR = $(AR) $(ARFLAGS)$/;"	m
+libjansson_a_LIBADD	compat/jansson/Makefile	/^libjansson_a_LIBADD =$/;"	m
+libjansson_a_OBJECTS	compat/jansson/Makefile	/^libjansson_a_OBJECTS = $(am_libjansson_a_OBJECTS)$/;"	m
+libjansson_a_SOURCES	compat/jansson/Makefile	/^libjansson_a_SOURCES = \\$/;"	m
+likely	miner.h	52;"	d
+likely	miner.h	55;"	d
+likely	miner.h	58;"	d
+line	compat/jansson/jansson.h	/^    int line;$/;"	m	struct:__anon4
+line	compat/jansson/load.c	/^    int line, column;$/;"	m	struct:__anon12	file:
+list	compat/jansson/hashtable.h	/^    struct hashtable_list list;$/;"	m	struct:hashtable	typeref:struct:hashtable::hashtable_list
+list	compat/jansson/hashtable.h	/^    struct hashtable_list list;$/;"	m	struct:hashtable_pair	typeref:struct:hashtable_pair::hashtable_list
+list_add	elist.h	/^static inline void list_add(struct list_head *new, struct list_head *head)$/;"	f
+list_add_tail	elist.h	/^static inline void list_add_tail(struct list_head *new, struct list_head *head)$/;"	f
+list_del	elist.h	/^static inline void list_del(struct list_head *entry)$/;"	f
+list_del_init	elist.h	/^static inline void list_del_init(struct list_head *entry)$/;"	f
+list_empty	elist.h	/^static inline int list_empty(struct list_head *head)$/;"	f
+list_entry	elist.h	183;"	d
+list_for_each	elist.h	191;"	d
+list_for_each_entry	elist.h	219;"	d
+list_for_each_entry_continue	elist.h	244;"	d
+list_for_each_entry_safe	elist.h	231;"	d
+list_for_each_prev	elist.h	199;"	d
+list_for_each_safe	elist.h	209;"	d
+list_head	elist.h	/^struct list_head {$/;"	s
+list_init	compat/jansson/hashtable.c	/^static inline void list_init(list_t *list)$/;"	f	file:
+list_insert	compat/jansson/hashtable.c	/^static inline void list_insert(list_t *list, list_t *node)$/;"	f	file:
+list_move	elist.h	/^static inline void list_move(struct list_head *list, struct list_head *head)$/;"	f
+list_move_tail	elist.h	/^static inline void list_move_tail(struct list_head *list,$/;"	f
+list_remove	compat/jansson/hashtable.c	/^static inline void list_remove(list_t *list)$/;"	f	file:
+list_splice	elist.h	/^static inline void list_splice(struct list_head *list, struct list_head *head)$/;"	f
+list_splice_init	elist.h	/^static inline void list_splice_init(struct list_head *list,$/;"	f
+list_t	compat/jansson/hashtable.c	/^typedef struct hashtable_list list_t;$/;"	t	typeref:struct:hashtable_list	file:
+list_to_pair	compat/jansson/hashtable.c	20;"	d	file:
+localedir	Makefile	/^localedir = ${datarootdir}\/locale$/;"	m
+localedir	compat/Makefile	/^localedir = ${datarootdir}\/locale$/;"	m
+localedir	compat/jansson/Makefile	/^localedir = ${datarootdir}\/locale$/;"	m
+localstatedir	Makefile	/^localstatedir = ${prefix}\/var$/;"	m
+localstatedir	compat/Makefile	/^localstatedir = ${prefix}\/var$/;"	m
+localstatedir	compat/jansson/Makefile	/^localstatedir = ${prefix}\/var$/;"	m
+longpoll_thr_id	cpu-miner.c	/^int longpoll_thr_id = -1;$/;"	v
+longpoll_thread	cpu-miner.c	/^static void *longpoll_thread(void *userdata)$/;"	f	file:
+lp_path	util.c	/^	char		*lp_path;$/;"	m	struct:header_info	file:
+main	config.guess	/^		main()$/;"	f
+main	config.guess	/^	main ()$/;"	f
+main	config.guess	/^main ()$/;"	f
+main	cpu-miner.c	/^int main(int argc, char *argv[])$/;"	f
+man1dir	Makefile	/^man1dir = $(mandir)\/man1$/;"	m
+mandir	Makefile	/^mandir = ${datarootdir}\/man$/;"	m
+mandir	compat/Makefile	/^mandir = ${datarootdir}\/man$/;"	m
+mandir	compat/jansson/Makefile	/^mandir = ${datarootdir}\/man$/;"	m
+max	compat/jansson/util.h	11;"	d
+merkle	miner.h	/^	unsigned char **merkle;$/;"	m	struct:stratum_job
+merkle_count	miner.h	/^	int merkle_count;$/;"	m	struct:stratum_job
+miner_thread	cpu-miner.c	/^static void *miner_thread(void *userdata)$/;"	f	file:
+minerd_CPPFLAGS	Makefile	/^minerd_CPPFLAGS = $/;"	m
+minerd_DEPENDENCIES	Makefile	/^minerd_DEPENDENCIES =$/;"	m
+minerd_LDADD	Makefile	/^minerd_LDADD = -L\/usr\/lib\/i386-linux-gnu -lcurl compat\/jansson\/libjansson.a -lpthread $/;"	m
+minerd_LDFLAGS	Makefile	/^minerd_LDFLAGS = $(PTHREAD_FLAGS)$/;"	m
+minerd_LINK	Makefile	/^minerd_LINK = $(CCLD) $(AM_CFLAGS) $(CFLAGS) $(minerd_LDFLAGS) \\$/;"	m
+minerd_OBJECTS	Makefile	/^minerd_OBJECTS = $(am_minerd_OBJECTS)$/;"	m
+minerd_SOURCES	Makefile	/^minerd_SOURCES = elist.h miner.h compat.h cpu-miner.c util.c sha2.c \\$/;"	m
+mkdir_p	Makefile	/^mkdir_p = \/bin\/mkdir -p$/;"	m
+mkdir_p	compat/Makefile	/^mkdir_p = \/bin\/mkdir -p$/;"	m
+mkdir_p	compat/jansson/Makefile	/^mkdir_p = \/bin\/mkdir -p$/;"	m
+mkinstalldirs	Makefile	/^mkinstalldirs = $(install_sh) -d$/;"	m
+mkinstalldirs	compat/Makefile	/^mkinstalldirs = $(install_sh) -d$/;"	m
+mkinstalldirs	compat/jansson/Makefile	/^mkinstalldirs = $(install_sh) -d$/;"	m
+mutex	util.c	/^	pthread_mutex_t		mutex;$/;"	m	struct:thread_q	file:
+name	cpu-miner.c	/^	const char *name;$/;"	m	struct:option	file:
+nbits	miner.h	/^	unsigned char nbits[4];$/;"	m	struct:stratum_job
+next	compat/jansson/hashtable.h	/^    struct hashtable_list *next;$/;"	m	struct:hashtable_list	typeref:struct:hashtable_list::hashtable_list
+next	elist.h	/^	struct list_head *next, *prev;$/;"	m	struct:list_head	typeref:struct:list_head::list_head
+next_diff	miner.h	/^	double next_diff;$/;"	m	struct:stratum_ctx
+noinst_LIBRARIES	compat/jansson/Makefile	/^noinst_LIBRARIES = libjansson.a$/;"	m
+ntime	miner.h	/^	unsigned char ntime[4];$/;"	m	struct:stratum_job
+num_buckets	compat/jansson/hashtable.c	/^static inline unsigned int num_buckets(hashtable_t *hashtable)$/;"	f	file:
+num_buckets	compat/jansson/hashtable.h	/^    unsigned int num_buckets;  \/* index to primes[] *\/$/;"	m	struct:hashtable
+num_primes	compat/jansson/hashtable.c	/^static const unsigned int num_primes = sizeof(primes) \/ sizeof(unsigned int);$/;"	v	file:
+num_processors	cpu-miner.c	/^static int num_processors;$/;"	v	file:
+object_key_compare_keys	compat/jansson/dump.c	/^static int object_key_compare_keys(const void *key1, const void *key2)$/;"	f	file:
+object_key_compare_serials	compat/jansson/dump.c	/^static int object_key_compare_serials(const void *key1, const void *key2)$/;"	f	file:
+object_key_t	compat/jansson/jansson_private.h	/^} object_key_t;$/;"	t	typeref:struct:__anon10
+oldincludedir	Makefile	/^oldincludedir = \/usr\/include$/;"	m
+oldincludedir	compat/Makefile	/^oldincludedir = \/usr\/include$/;"	m
+oldincludedir	compat/jansson/Makefile	/^oldincludedir = \/usr\/include$/;"	m
+opensocket_grab_cb	util.c	/^static curl_socket_t opensocket_grab_cb(void *clientp, curlsocktype purpose,$/;"	f	file:
+opt_algo	cpu-miner.c	/^static enum sha256_algos opt_algo = ALGO_BCRYPT;$/;"	v	typeref:enum:sha256_algos	file:
+opt_background	cpu-miner.c	/^static bool opt_background = false;$/;"	v	file:
+opt_benchmark	cpu-miner.c	/^static bool opt_benchmark = false;$/;"	v	file:
+opt_cert	cpu-miner.c	/^char *opt_cert;$/;"	v
+opt_config	cpu-miner.c	/^static json_t *opt_config;$/;"	v	file:
+opt_debug	cpu-miner.c	/^bool opt_debug = false;$/;"	v
+opt_fail_pause	cpu-miner.c	/^static int opt_fail_pause = 30;$/;"	v	file:
+opt_n_threads	cpu-miner.c	/^static int opt_n_threads;$/;"	v	file:
+opt_protocol	cpu-miner.c	/^bool opt_protocol = false;$/;"	v
+opt_proxy	cpu-miner.c	/^char *opt_proxy;$/;"	v
+opt_proxy_type	cpu-miner.c	/^long opt_proxy_type;$/;"	v
+opt_quiet	cpu-miner.c	/^static bool opt_quiet = false;$/;"	v	file:
+opt_retries	cpu-miner.c	/^static int opt_retries = -1;$/;"	v	file:
+opt_scantime	cpu-miner.c	/^static int opt_scantime = 5;$/;"	v	file:
+opt_time	cpu-miner.c	/^static const bool opt_time = true;$/;"	v	file:
+opt_timeout	cpu-miner.c	/^int opt_timeout = 270;$/;"	v
+option	cpu-miner.c	/^struct option {$/;"	s	file:
+options	cpu-miner.c	/^static struct option const options[] = {$/;"	v	file:
+outerpad	scrypt.c	/^static const uint32_t outerpad[8] = {$/;"	v	file:
+outerpad_4way	scrypt.c	/^static const uint32_t outerpad_4way[4 * 8] = {$/;"	v	file:
+padding	miner.h	/^	char			padding[128 - sizeof(unsigned long)];$/;"	m	struct:work_restart
+pair_t	compat/jansson/hashtable.c	/^typedef struct hashtable_pair pair_t;$/;"	t	typeref:struct:hashtable_pair	file:
+parse_arg	cpu-miner.c	/^static void parse_arg (int key, char *arg)$/;"	f	file:
+parse_array	compat/jansson/load.c	/^static json_t *parse_array(lex_t *lex, json_error_t *error)$/;"	f	file:
+parse_cmdline	cpu-miner.c	/^static void parse_cmdline(int argc, char *argv[])$/;"	f	file:
+parse_config	cpu-miner.c	/^static void parse_config(void)$/;"	f	file:
+parse_json	compat/jansson/load.c	/^static json_t *parse_json(lex_t *lex, json_error_t *error)$/;"	f	file:
+parse_object	compat/jansson/load.c	/^static json_t *parse_object(lex_t *lex, json_error_t *error)$/;"	f	file:
+parse_value	compat/jansson/load.c	/^static json_t *parse_value(lex_t *lex, json_error_t *error)$/;"	f	file:
+pdfdir	Makefile	/^pdfdir = ${docdir}$/;"	m
+pdfdir	compat/Makefile	/^pdfdir = ${docdir}$/;"	m
+pdfdir	compat/jansson/Makefile	/^pdfdir = ${docdir}$/;"	m
+pkgdatadir	Makefile	/^pkgdatadir = $(datadir)\/cpuminer$/;"	m
+pkgdatadir	compat/Makefile	/^pkgdatadir = $(datadir)\/cpuminer$/;"	m
+pkgdatadir	compat/jansson/Makefile	/^pkgdatadir = $(datadir)\/cpuminer$/;"	m
+pkgincludedir	Makefile	/^pkgincludedir = $(includedir)\/cpuminer$/;"	m
+pkgincludedir	compat/Makefile	/^pkgincludedir = $(includedir)\/cpuminer$/;"	m
+pkgincludedir	compat/jansson/Makefile	/^pkgincludedir = $(includedir)\/cpuminer$/;"	m
+pkglibdir	Makefile	/^pkglibdir = $(libdir)\/cpuminer$/;"	m
+pkglibdir	compat/Makefile	/^pkglibdir = $(libdir)\/cpuminer$/;"	m
+pkglibdir	compat/jansson/Makefile	/^pkglibdir = $(libdir)\/cpuminer$/;"	m
+pkglibexecdir	Makefile	/^pkglibexecdir = $(libexecdir)\/cpuminer$/;"	m
+pkglibexecdir	compat/Makefile	/^pkglibexecdir = $(libexecdir)\/cpuminer$/;"	m
+pkglibexecdir	compat/jansson/Makefile	/^pkglibexecdir = $(libexecdir)\/cpuminer$/;"	m
+pos	compat/jansson/load.c	/^    int pos;$/;"	m	struct:__anon14	file:
+pos	util.c	/^	size_t		pos;$/;"	m	struct:upload_buffer	file:
+prefix	Makefile	/^prefix = \/usr\/local$/;"	m
+prefix	compat/Makefile	/^prefix = \/usr\/local$/;"	m
+prefix	compat/jansson/Makefile	/^prefix = \/usr\/local$/;"	m
+prev	compat/jansson/hashtable.h	/^    struct hashtable_list *prev;$/;"	m	struct:hashtable_list	typeref:struct:hashtable_list::hashtable_list
+prev	elist.h	/^	struct list_head *next, *prev;$/;"	m	struct:list_head	typeref:struct:list_head::
+prevhash	miner.h	/^	unsigned char prevhash[32];$/;"	m	struct:stratum_job
+primes	compat/jansson/hashtable.c	/^static unsigned int primes[] = {$/;"	v	file:
+program_transform_name	Makefile	/^program_transform_name = s,x,x,$/;"	m
+program_transform_name	compat/Makefile	/^program_transform_name = s,x,x,$/;"	m
+program_transform_name	compat/jansson/Makefile	/^program_transform_name = s,x,x,$/;"	m
+prototypes	configure	/^   function prototypes and stuff, but not '\\xHH' hex character constants.$/;"	f
+psdir	Makefile	/^psdir = ${docdir}$/;"	m
+psdir	compat/Makefile	/^psdir = ${docdir}$/;"	m
+psdir	compat/jansson/Makefile	/^psdir = ${docdir}$/;"	m
+pth	miner.h	/^	pthread_t	pth;$/;"	m	struct:thr_info
+q	miner.h	/^	struct thread_q	*q;$/;"	m	struct:thr_info	typeref:struct:thr_info::thread_q
+q	util.c	/^	struct list_head	q;$/;"	m	struct:thread_q	typeref:struct:thread_q::list_head	file:
+q_node	util.c	/^	struct list_head	q_node;$/;"	m	struct:tq_ent	typeref:struct:tq_ent::list_head	file:
+real	compat/jansson/load.c	/^        double real;$/;"	m	union:__anon12::__anon13	file:
+reason	util.c	/^	char		*reason;$/;"	m	struct:header_info	file:
+refcount	compat/jansson/jansson.h	/^    unsigned long refcount;$/;"	m	struct:__anon3
+rejected_count	cpu-miner.c	/^static unsigned long rejected_count = 0L;$/;"	v	file:
+resp_hdr_cb	util.c	/^static size_t resp_hdr_cb(void *ptr, size_t size, size_t nmemb, void *user_data)$/;"	f	file:
+restart	miner.h	/^	volatile unsigned long	restart;$/;"	m	struct:work_restart
+restart_threads	cpu-miner.c	/^static void restart_threads(void)$/;"	f	file:
+rpc_pass	cpu-miner.c	/^static char *rpc_user, *rpc_pass;$/;"	v	file:
+rpc_req	cpu-miner.c	/^static const char *rpc_req =$/;"	v	file:
+rpc_url	cpu-miner.c	/^static char *rpc_url;$/;"	v	file:
+rpc_user	cpu-miner.c	/^static char *rpc_user, *rpc_pass;$/;"	v	file:
+rpc_userpass	cpu-miner.c	/^static char *rpc_userpass;$/;"	v	file:
+s0	sha2.c	56;"	d	file:
+s1	sha2.c	57;"	d	file:
+salsa8_core_gen	scrypt-x64.S	/^salsa8_core_gen:$/;"	l
+salsa8_core_gen	scrypt-x86.S	/^salsa8_core_gen:$/;"	l
+saved_text	compat/jansson/load.c	/^    strbuffer_t saved_text;$/;"	m	struct:__anon12	file:
+sbindir	Makefile	/^sbindir = ${exec_prefix}\/sbin$/;"	m
+sbindir	compat/Makefile	/^sbindir = ${exec_prefix}\/sbin$/;"	m
+sbindir	compat/jansson/Makefile	/^sbindir = ${exec_prefix}\/sbin$/;"	m
+scanhash_scrypt	scrypt.c	/^int scanhash_scrypt(int thr_id, uint32_t *pdata,$/;"	f
+scanhash_sha256d	sha2.c	/^int scanhash_sha256d(int thr_id, uint32_t *pdata, const uint32_t *ptarget,$/;"	f
+scanhash_sha256d_4way	sha2.c	/^static inline int scanhash_sha256d_4way(int thr_id, uint32_t *pdata,$/;"	f	file:
+scanhash_sha256d_8way	sha2.c	/^static inline int scanhash_sha256d_8way(int thr_id, uint32_t *pdata,$/;"	f	file:
+scanhash_tjcoin	tjcoin.c	/^int scanhash_tjcoin(int thr_id, uint32_t *pdata,$/;"	f
+scrypt_1024_1_1_256	scrypt.c	/^static void scrypt_1024_1_1_256(const uint32_t *input, uint32_t *output,$/;"	f	file:
+scrypt_1024_1_1_256_12way	scrypt.c	/^static void scrypt_1024_1_1_256_12way(const uint32_t *input,$/;"	f	file:
+scrypt_1024_1_1_256_24way	scrypt.c	/^static void scrypt_1024_1_1_256_24way(const uint32_t *input,$/;"	f	file:
+scrypt_1024_1_1_256_3way	scrypt.c	/^static void scrypt_1024_1_1_256_3way(const uint32_t *input,$/;"	f	file:
+scrypt_1024_1_1_256_4way	scrypt.c	/^static void scrypt_1024_1_1_256_4way(const uint32_t *input,$/;"	f	file:
+scrypt_best_throughput	scrypt-x64.S	/^scrypt_best_throughput:$/;"	l
+scrypt_best_throughput	scrypt.c	398;"	d	file:
+scrypt_best_throughput	scrypt.c	408;"	d	file:
+scrypt_best_throughput	scrypt.c	504;"	d	file:
+scrypt_best_throughput_exit	scrypt-x64.S	/^scrypt_best_throughput_exit:$/;"	l
+scrypt_best_throughput_no_avx2	scrypt-x64.S	/^scrypt_best_throughput_no_avx2:$/;"	l
+scrypt_best_throughput_not_amd	scrypt-x64.S	/^scrypt_best_throughput_not_amd:$/;"	l
+scrypt_best_throughput_one	scrypt-x64.S	/^scrypt_best_throughput_one:$/;"	l
+scrypt_buffer_alloc	scrypt.c	/^unsigned char *scrypt_buffer_alloc()$/;"	f
+scrypt_core	scrypt-arm.S	/^scrypt_core:$/;"	l
+scrypt_core	scrypt-x64.S	/^scrypt_core:$/;"	l
+scrypt_core	scrypt-x86.S	/^scrypt_core:$/;"	l
+scrypt_core	scrypt.c	/^static inline void scrypt_core(uint32_t *X, uint32_t *V)$/;"	f	file:
+scrypt_core_3way	scrypt-arm.S	/^scrypt_core_3way:$/;"	l
+scrypt_core_3way	scrypt-x64.S	/^scrypt_core_3way:$/;"	l
+scrypt_core_3way_avx	scrypt-x64.S	/^scrypt_core_3way_avx:$/;"	l
+scrypt_core_3way_avx_loop1	scrypt-x64.S	/^scrypt_core_3way_avx_loop1:$/;"	l
+scrypt_core_3way_avx_loop2	scrypt-x64.S	/^scrypt_core_3way_avx_loop2:$/;"	l
+scrypt_core_3way_loop1	scrypt-arm.S	/^scrypt_core_3way_loop1:$/;"	l
+scrypt_core_3way_loop2	scrypt-arm.S	/^scrypt_core_3way_loop2:$/;"	l
+scrypt_core_3way_xmm	scrypt-x64.S	/^scrypt_core_3way_xmm:$/;"	l
+scrypt_core_3way_xmm_loop1	scrypt-x64.S	/^scrypt_core_3way_xmm_loop1:$/;"	l
+scrypt_core_3way_xmm_loop2	scrypt-x64.S	/^scrypt_core_3way_xmm_loop2:$/;"	l
+scrypt_core_3way_xop	scrypt-x64.S	/^scrypt_core_3way_xop:$/;"	l
+scrypt_core_3way_xop_loop1	scrypt-x64.S	/^scrypt_core_3way_xop_loop1:$/;"	l
+scrypt_core_3way_xop_loop2	scrypt-x64.S	/^scrypt_core_3way_xop_loop2:$/;"	l
+scrypt_core_6way	scrypt-x64.S	/^scrypt_core_6way:$/;"	l
+scrypt_core_6way_avx2	scrypt-x64.S	/^scrypt_core_6way_avx2:$/;"	l
+scrypt_core_6way_avx2_loop1	scrypt-x64.S	/^scrypt_core_6way_avx2_loop1:$/;"	l
+scrypt_core_6way_avx2_loop2	scrypt-x64.S	/^scrypt_core_6way_avx2_loop2:$/;"	l
+scrypt_core_gen	scrypt-x64.S	/^scrypt_core_gen:$/;"	l
+scrypt_core_gen	scrypt-x86.S	/^scrypt_core_gen:$/;"	l
+scrypt_core_gen_loop1	scrypt-x64.S	/^scrypt_core_gen_loop1:$/;"	l
+scrypt_core_gen_loop1	scrypt-x86.S	/^scrypt_core_gen_loop1:$/;"	l
+scrypt_core_gen_loop2	scrypt-x64.S	/^scrypt_core_gen_loop2:$/;"	l
+scrypt_core_gen_loop2	scrypt-x86.S	/^scrypt_core_gen_loop2:$/;"	l
+scrypt_core_loop1	scrypt-arm.S	/^scrypt_core_loop1:$/;"	l
+scrypt_core_loop2	scrypt-arm.S	/^scrypt_core_loop2:$/;"	l
+scrypt_core_sse2	scrypt-x86.S	/^scrypt_core_sse2:$/;"	l
+scrypt_core_sse2_loop1	scrypt-x86.S	/^scrypt_core_sse2_loop1:$/;"	l
+scrypt_core_sse2_loop2	scrypt-x86.S	/^scrypt_core_sse2_loop2:$/;"	l
+scrypt_core_xmm	scrypt-x64.S	/^scrypt_core_xmm:$/;"	l
+scrypt_core_xmm_loop1	scrypt-x64.S	/^scrypt_core_xmm_loop1:$/;"	l
+scrypt_core_xmm_loop2	scrypt-x64.S	/^scrypt_core_xmm_loop2:$/;"	l
+seek_data_cb	util.c	/^static int seek_data_cb(void *user_data, curl_off_t offset, int origin)$/;"	f	file:
+send_line	util.c	/^static bool send_line(curl_socket_t sock, char *s)$/;"	f	file:
+serial	compat/jansson/jansson_private.h	/^    unsigned long serial;$/;"	m	struct:__anon10
+serial	compat/jansson/jansson_private.h	/^    unsigned long serial;$/;"	m	struct:__anon5
+session_id	miner.h	/^	char *session_id;$/;"	m	struct:stratum_ctx
+setpriority	compat.h	/^static inline int setpriority(int which, int who, int prio)$/;"	f
+sha256_4h	sha2-arm.S	/^sha256_4h:$/;"	l
+sha256_4h	sha2-x64.S	/^sha256_4h:$/;"	l
+sha256_4h	sha2-x86.S	/^sha256_4h:$/;"	l
+sha256_4k	sha2-x64.S	/^sha256_4k:$/;"	l
+sha256_4k	sha2-x86.S	/^sha256_4k:$/;"	l
+sha256_8h	sha2-x64.S	/^sha256_8h:$/;"	l
+sha256_8k	sha2-x64.S	/^sha256_8k:$/;"	l
+sha256_algos	cpu-miner.c	/^enum sha256_algos {$/;"	g	file:
+sha256_h	sha2.c	/^static const uint32_t sha256_h[8] = {$/;"	v	file:
+sha256_init	sha2.c	/^void sha256_init(uint32_t *state)$/;"	f
+sha256_init_4way	sha2-arm.S	/^sha256_init_4way:$/;"	l
+sha256_init_4way	sha2-x64.S	/^sha256_init_4way:$/;"	l
+sha256_init_4way	sha2-x86.S	/^sha256_init_4way:$/;"	l
+sha256_init_8way	sha2-x64.S	/^sha256_init_8way:$/;"	l
+sha256_k	sha2.c	/^static const uint32_t sha256_k[64] = {$/;"	v	file:
+sha256_transform	sha2-arm.S	/^sha256_transform:$/;"	l
+sha256_transform	sha2.c	/^void sha256_transform(uint32_t *state, const uint32_t *block, int swap)$/;"	f
+sha256_transform_4way	sha2-arm.S	/^sha256_transform_4way:$/;"	l
+sha256_transform_4way	sha2-x64.S	/^sha256_transform_4way:$/;"	l
+sha256_transform_4way	sha2-x86.S	/^sha256_transform_4way:$/;"	l
+sha256_transform_4way_4k	sha2-arm.S	/^sha256_transform_4way_4k:$/;"	l
+sha256_transform_4way_4k_over	sha2-arm.S	/^sha256_transform_4way_4k_over:$/;"	l
+sha256_transform_4way_core_addr	sha2-x64.S	/^sha256_transform_4way_core_addr:$/;"	l
+sha256_transform_4way_core_avx	sha2-x64.S	/^sha256_transform_4way_core_avx:$/;"	l
+sha256_transform_4way_core_sse2	sha2-x64.S	/^sha256_transform_4way_core_sse2:$/;"	l
+sha256_transform_4way_core_xop	sha2-x64.S	/^sha256_transform_4way_core_xop:$/;"	l
+sha256_transform_4way_extend	sha2-arm.S	/^sha256_transform_4way_extend:$/;"	l
+sha256_transform_4way_extend	sha2-x86.S	/^sha256_transform_4way_extend:$/;"	l
+sha256_transform_4way_extend_loop	sha2-x86.S	/^sha256_transform_4way_extend_loop:$/;"	l
+sha256_transform_4way_finish	sha2-x64.S	/^sha256_transform_4way_finish:$/;"	l
+sha256_transform_4way_main_loop	sha2-x86.S	/^sha256_transform_4way_main_loop:$/;"	l
+sha256_transform_4way_sse2_extend_loop	sha2-x64.S	/^sha256_transform_4way_sse2_extend_loop:$/;"	l
+sha256_transform_4way_sse2_main_loop	sha2-x64.S	/^sha256_transform_4way_sse2_main_loop:$/;"	l
+sha256_transform_4way_swap	sha2-arm.S	/^sha256_transform_4way_swap:$/;"	l
+sha256_transform_4way_swap	sha2-x64.S	/^sha256_transform_4way_swap:$/;"	l
+sha256_transform_4way_swap	sha2-x86.S	/^sha256_transform_4way_swap:$/;"	l
+sha256_transform_8way	sha2-x64.S	/^sha256_transform_8way:$/;"	l
+sha256_transform_8way_core_avx2	sha2-x64.S	/^sha256_transform_8way_core_avx2:$/;"	l
+sha256_transform_8way_finish	sha2-x64.S	/^sha256_transform_8way_finish:$/;"	l
+sha256_transform_8way_swap	sha2-x64.S	/^sha256_transform_8way_swap:$/;"	l
+sha256_transform_extend	sha2-arm.S	/^sha256_transform_extend:$/;"	l
+sha256_transform_k	sha2-arm.S	/^sha256_transform_k:$/;"	l
+sha256_transform_k_over	sha2-arm.S	/^sha256_transform_k_over:$/;"	l
+sha256_transform_swap	sha2-arm.S	/^sha256_transform_swap:$/;"	l
+sha256_use_4way	sha2-arm.S	/^sha256_use_4way:$/;"	l
+sha256_use_4way	sha2-x64.S	/^sha256_use_4way:$/;"	l
+sha256_use_4way	sha2-x86.S	/^sha256_use_4way:$/;"	l
+sha256_use_4way_avx	sha2-x64.S	/^sha256_use_4way_avx:$/;"	l
+sha256_use_4way_base	sha2-x64.S	/^sha256_use_4way_base:$/;"	l
+sha256_use_4way_done	sha2-x64.S	/^sha256_use_4way_done:$/;"	l
+sha256_use_4way_sse2	sha2-x86.S	/^sha256_use_4way_sse2:$/;"	l
+sha256_use_4way_xop	sha2-x64.S	/^sha256_use_4way_xop:$/;"	l
+sha256_use_8way	sha2-x64.S	/^sha256_use_8way:$/;"	l
+sha256_use_8way_done	sha2-x64.S	/^sha256_use_8way_done:$/;"	l
+sha256_use_8way_no	sha2-x64.S	/^sha256_use_8way_no:$/;"	l
+sha256_use_8way_yes	sha2-x64.S	/^sha256_use_8way_yes:$/;"	l
+sha256d	sha2.c	/^void sha256d(unsigned char *hash, const unsigned char *data, int len)$/;"	f
+sha256d_4preext2_15	sha2-x86.S	/^sha256d_4preext2_15:$/;"	l
+sha256d_4preext2_17	sha2-x64.S	/^sha256d_4preext2_17:$/;"	l
+sha256d_4preext2_17	sha2-x86.S	/^sha256d_4preext2_17:$/;"	l
+sha256d_4preext2_23	sha2-x64.S	/^sha256d_4preext2_23:$/;"	l
+sha256d_4preext2_23	sha2-x86.S	/^sha256d_4preext2_23:$/;"	l
+sha256d_4preext2_24	sha2-x64.S	/^sha256d_4preext2_24:$/;"	l
+sha256d_4preext2_24	sha2-x86.S	/^sha256d_4preext2_24:$/;"	l
+sha256d_4preext2_30	sha2-x64.S	/^sha256d_4preext2_30:$/;"	l
+sha256d_4preext2_30	sha2-x86.S	/^sha256d_4preext2_30:$/;"	l
+sha256d_80_swap	sha2.c	/^static void sha256d_80_swap(uint32_t *hash, const uint32_t *data)$/;"	f	file:
+sha256d_8preext2_17	sha2-x64.S	/^sha256d_8preext2_17:$/;"	l
+sha256d_8preext2_23	sha2-x64.S	/^sha256d_8preext2_23:$/;"	l
+sha256d_8preext2_24	sha2-x64.S	/^sha256d_8preext2_24:$/;"	l
+sha256d_8preext2_30	sha2-x64.S	/^sha256d_8preext2_30:$/;"	l
+sha256d_hash1	sha2.c	/^static const uint32_t sha256d_hash1[16] = {$/;"	v	file:
+sha256d_ms	sha2-arm.S	/^sha256d_ms:$/;"	l
+sha256d_ms	sha2.c	/^static inline void sha256d_ms(uint32_t *hash, uint32_t *W,$/;"	f	file:
+sha256d_ms_4way	sha2-arm.S	/^sha256d_ms_4way:$/;"	l
+sha256d_ms_4way	sha2-x64.S	/^sha256d_ms_4way:$/;"	l
+sha256d_ms_4way	sha2-x86.S	/^sha256d_ms_4way:$/;"	l
+sha256d_ms_4way_4h	sha2-arm.S	/^sha256d_ms_4way_4h:$/;"	l
+sha256d_ms_4way_4k	sha2-arm.S	/^sha256d_ms_4way_4k:$/;"	l
+sha256d_ms_4way_addr	sha2-x64.S	/^sha256d_ms_4way_addr:$/;"	l
+sha256d_ms_4way_avx	sha2-x64.S	/^sha256d_ms_4way_avx:$/;"	l
+sha256d_ms_4way_avx_extend_coda2	sha2-x64.S	/^sha256d_ms_4way_avx_extend_coda2:$/;"	l
+sha256d_ms_4way_avx_extend_loop1	sha2-x64.S	/^sha256d_ms_4way_avx_extend_loop1:$/;"	l
+sha256d_ms_4way_avx_extend_loop2	sha2-x64.S	/^sha256d_ms_4way_avx_extend_loop2:$/;"	l
+sha256d_ms_4way_avx_finish	sha2-x64.S	/^sha256d_ms_4way_avx_finish:$/;"	l
+sha256d_ms_4way_avx_main_loop1	sha2-x64.S	/^sha256d_ms_4way_avx_main_loop1:$/;"	l
+sha256d_ms_4way_avx_main_loop2	sha2-x64.S	/^sha256d_ms_4way_avx_main_loop2:$/;"	l
+sha256d_ms_4way_extend_coda2	sha2-arm.S	/^sha256d_ms_4way_extend_coda2:$/;"	l
+sha256d_ms_4way_extend_coda2	sha2-x86.S	/^sha256d_ms_4way_extend_coda2:$/;"	l
+sha256d_ms_4way_extend_loop1	sha2-x86.S	/^sha256d_ms_4way_extend_loop1:$/;"	l
+sha256d_ms_4way_extend_loop2	sha2-arm.S	/^sha256d_ms_4way_extend_loop2:$/;"	l
+sha256d_ms_4way_extend_loop2	sha2-x86.S	/^sha256d_ms_4way_extend_loop2:$/;"	l
+sha256d_ms_4way_finish	sha2-arm.S	/^sha256d_ms_4way_finish:$/;"	l
+sha256d_ms_4way_finish	sha2-x86.S	/^sha256d_ms_4way_finish:$/;"	l
+sha256d_ms_4way_main_loop1	sha2-arm.S	/^sha256d_ms_4way_main_loop1:$/;"	l
+sha256d_ms_4way_main_loop1	sha2-x86.S	/^sha256d_ms_4way_main_loop1:$/;"	l
+sha256d_ms_4way_main_loop2	sha2-arm.S	/^sha256d_ms_4way_main_loop2:$/;"	l
+sha256d_ms_4way_main_loop2	sha2-x86.S	/^sha256d_ms_4way_main_loop2:$/;"	l
+sha256d_ms_4way_sse2	sha2-x64.S	/^sha256d_ms_4way_sse2:$/;"	l
+sha256d_ms_4way_sse2_extend_coda2	sha2-x64.S	/^sha256d_ms_4way_sse2_extend_coda2:$/;"	l
+sha256d_ms_4way_sse2_extend_loop1	sha2-x64.S	/^sha256d_ms_4way_sse2_extend_loop1:$/;"	l
+sha256d_ms_4way_sse2_extend_loop2	sha2-x64.S	/^sha256d_ms_4way_sse2_extend_loop2:$/;"	l
+sha256d_ms_4way_sse2_finish	sha2-x64.S	/^sha256d_ms_4way_sse2_finish:$/;"	l
+sha256d_ms_4way_sse2_main_loop1	sha2-x64.S	/^sha256d_ms_4way_sse2_main_loop1:$/;"	l
+sha256d_ms_4way_sse2_main_loop2	sha2-x64.S	/^sha256d_ms_4way_sse2_main_loop2:$/;"	l
+sha256d_ms_4way_xop	sha2-x64.S	/^sha256d_ms_4way_xop:$/;"	l
+sha256d_ms_4way_xop_extend_coda2	sha2-x64.S	/^sha256d_ms_4way_xop_extend_coda2:$/;"	l
+sha256d_ms_4way_xop_extend_loop1	sha2-x64.S	/^sha256d_ms_4way_xop_extend_loop1:$/;"	l
+sha256d_ms_4way_xop_extend_loop2	sha2-x64.S	/^sha256d_ms_4way_xop_extend_loop2:$/;"	l
+sha256d_ms_4way_xop_finish	sha2-x64.S	/^sha256d_ms_4way_xop_finish:$/;"	l
+sha256d_ms_4way_xop_main_loop1	sha2-x64.S	/^sha256d_ms_4way_xop_main_loop1:$/;"	l
+sha256d_ms_4way_xop_main_loop2	sha2-x64.S	/^sha256d_ms_4way_xop_main_loop2:$/;"	l
+sha256d_ms_8way	sha2-x64.S	/^sha256d_ms_8way:$/;"	l
+sha256d_ms_8way_avx2	sha2-x64.S	/^sha256d_ms_8way_avx2:$/;"	l
+sha256d_ms_8way_avx2_extend_coda2	sha2-x64.S	/^sha256d_ms_8way_avx2_extend_coda2:$/;"	l
+sha256d_ms_8way_avx2_extend_loop1	sha2-x64.S	/^sha256d_ms_8way_avx2_extend_loop1:$/;"	l
+sha256d_ms_8way_avx2_extend_loop2	sha2-x64.S	/^sha256d_ms_8way_avx2_extend_loop2:$/;"	l
+sha256d_ms_8way_avx2_finish	sha2-x64.S	/^sha256d_ms_8way_avx2_finish:$/;"	l
+sha256d_ms_8way_avx2_main_loop1	sha2-x64.S	/^sha256d_ms_8way_avx2_main_loop1:$/;"	l
+sha256d_ms_8way_avx2_main_loop2	sha2-x64.S	/^sha256d_ms_8way_avx2_main_loop2:$/;"	l
+sha256d_ms_extend_coda2	sha2-arm.S	/^sha256d_ms_extend_coda2:$/;"	l
+sha256d_ms_extend_loop2	sha2-arm.S	/^sha256d_ms_extend_loop2:$/;"	l
+sha256d_ms_finish	sha2-arm.S	/^sha256d_ms_finish:$/;"	l
+sha256d_ms_h	sha2-arm.S	/^sha256d_ms_h:$/;"	l
+sha256d_ms_k	sha2-arm.S	/^sha256d_ms_k:$/;"	l
+sha256d_ms_k_over	sha2-arm.S	/^sha256d_ms_k_over:$/;"	l
+sha256d_ms_main_loop1	sha2-arm.S	/^sha256d_ms_main_loop1:$/;"	l
+sha256d_ms_main_loop2	sha2-arm.S	/^sha256d_ms_main_loop2:$/;"	l
+sha256d_preextend	sha2.c	/^static inline void sha256d_preextend(uint32_t *W)$/;"	f	file:
+sha256d_prehash	sha2.c	/^static inline void sha256d_prehash(uint32_t *S, const uint32_t *W)$/;"	f	file:
+share_result	cpu-miner.c	/^static void share_result(int result, const char *reason)$/;"	f	file:
+sharedstatedir	Makefile	/^sharedstatedir = ${prefix}\/com$/;"	m
+sharedstatedir	compat/Makefile	/^sharedstatedir = ${prefix}\/com$/;"	m
+sharedstatedir	compat/jansson/Makefile	/^sharedstatedir = ${prefix}\/com$/;"	m
+short_options	cpu-miner.c	/^static char const short_options[] =$/;"	v	file:
+show_usage_and_exit	cpu-miner.c	/^static void show_usage_and_exit(int status)$/;"	f	file:
+show_version_and_exit	cpu-miner.c	/^static void show_version_and_exit(void)$/;"	f	file:
+signal_handler	cpu-miner.c	/^static void signal_handler(int sig)$/;"	f	file:
+size	compat/jansson/dump.c	/^    int size;$/;"	m	struct:string	file:
+size	compat/jansson/hashtable.h	/^    unsigned int size;$/;"	m	struct:hashtable
+size	compat/jansson/jansson_private.h	/^    unsigned int size;$/;"	m	struct:__anon6
+size	compat/jansson/strbuffer.h	/^    int size;     \/* bytes allocated *\/$/;"	m	struct:__anon15
+sleep	compat.h	8;"	d
+sock	miner.h	/^	curl_socket_t sock;$/;"	m	struct:stratum_ctx
+sock_lock	miner.h	/^	pthread_mutex_t sock_lock;$/;"	m	struct:stratum_ctx
+sockbuf	miner.h	/^	char *sockbuf;$/;"	m	struct:stratum_ctx
+sockbuf_size	miner.h	/^	size_t sockbuf_size;$/;"	m	struct:stratum_ctx
+socket_blocks	util.c	575;"	d	file:
+socket_blocks	util.c	577;"	d	file:
+socket_full	util.c	/^static bool socket_full(curl_socket_t sock, int timeout)$/;"	f	file:
+sockopt_keepalive_cb	util.c	/^static int sockopt_keepalive_cb(void *userdata, curl_socket_t fd,$/;"	f	file:
+srcdir	Makefile	/^srcdir = .$/;"	m
+srcdir	compat/Makefile	/^srcdir = .$/;"	m
+srcdir	compat/jansson/Makefile	/^srcdir = .$/;"	m
+stats_lock	cpu-miner.c	/^static pthread_mutex_t stats_lock;$/;"	v	file:
+stratum	cpu-miner.c	/^static struct stratum_ctx stratum;$/;"	v	typeref:struct:stratum_ctx	file:
+stratum_authorize	util.c	/^bool stratum_authorize(struct stratum_ctx *sctx, const char *user, const char *pass)$/;"	f
+stratum_buffer_append	util.c	/^static void stratum_buffer_append(struct stratum_ctx *sctx, const char *s)$/;"	f	file:
+stratum_connect	util.c	/^bool stratum_connect(struct stratum_ctx *sctx, const char *url)$/;"	f
+stratum_ctx	miner.h	/^struct stratum_ctx {$/;"	s
+stratum_disconnect	util.c	/^void stratum_disconnect(struct stratum_ctx *sctx)$/;"	f
+stratum_gen_work	cpu-miner.c	/^static void stratum_gen_work(struct stratum_ctx *sctx, struct work *work)$/;"	f	file:
+stratum_get_version	util.c	/^static bool stratum_get_version(struct stratum_ctx *sctx, json_t *id)$/;"	f	file:
+stratum_handle_method	util.c	/^bool stratum_handle_method(struct stratum_ctx *sctx, const char *s)$/;"	f
+stratum_handle_response	cpu-miner.c	/^static bool stratum_handle_response(char *buf)$/;"	f	file:
+stratum_job	miner.h	/^struct stratum_job {$/;"	s
+stratum_notify	util.c	/^static bool stratum_notify(struct stratum_ctx *sctx, json_t *params)$/;"	f	file:
+stratum_reconnect	util.c	/^static bool stratum_reconnect(struct stratum_ctx *sctx, json_t *params)$/;"	f	file:
+stratum_recv_line	util.c	/^char *stratum_recv_line(struct stratum_ctx *sctx)$/;"	f
+stratum_send_line	util.c	/^bool stratum_send_line(struct stratum_ctx *sctx, char *s)$/;"	f
+stratum_set_difficulty	util.c	/^static bool stratum_set_difficulty(struct stratum_ctx *sctx, json_t *params)$/;"	f	file:
+stratum_show_message	util.c	/^static bool stratum_show_message(struct stratum_ctx *sctx, json_t *id, json_t *params)$/;"	f	file:
+stratum_socket_full	util.c	/^bool stratum_socket_full(struct stratum_ctx *sctx, int timeout)$/;"	f
+stratum_subscribe	util.c	/^bool stratum_subscribe(struct stratum_ctx *sctx)$/;"	f
+stratum_thr_id	cpu-miner.c	/^int stratum_thr_id = -1;$/;"	v
+stratum_thread	cpu-miner.c	/^static void *stratum_thread(void *userdata)$/;"	f	file:
+stratum_url	util.c	/^	char		*stratum_url;$/;"	m	struct:header_info	file:
+strbuffer_append	compat/jansson/strbuffer.c	/^int strbuffer_append(strbuffer_t *strbuff, const char *string)$/;"	f
+strbuffer_append_byte	compat/jansson/strbuffer.c	/^int strbuffer_append_byte(strbuffer_t *strbuff, char byte)$/;"	f
+strbuffer_append_bytes	compat/jansson/strbuffer.c	/^int strbuffer_append_bytes(strbuffer_t *strbuff, const char *data, int size)$/;"	f
+strbuffer_clear	compat/jansson/strbuffer.c	/^void strbuffer_clear(strbuffer_t *strbuff)$/;"	f
+strbuffer_close	compat/jansson/strbuffer.c	/^void strbuffer_close(strbuffer_t *strbuff)$/;"	f
+strbuffer_init	compat/jansson/strbuffer.c	/^int strbuffer_init(strbuffer_t *strbuff)$/;"	f
+strbuffer_pop	compat/jansson/strbuffer.c	/^char strbuffer_pop(strbuffer_t *strbuff)$/;"	f
+strbuffer_steal_value	compat/jansson/strbuffer.c	/^char *strbuffer_steal_value(strbuffer_t *strbuff)$/;"	f
+strbuffer_t	compat/jansson/strbuffer.h	/^} strbuffer_t;$/;"	t	typeref:struct:__anon15
+strbuffer_value	compat/jansson/strbuffer.c	/^const char *strbuffer_value(const strbuffer_t *strbuff)$/;"	f
+stream	compat/jansson/load.c	/^    stream_t stream;$/;"	m	struct:__anon12	file:
+stream_get	compat/jansson/load.c	/^static char stream_get(stream_t *stream, json_error_t *error)$/;"	f	file:
+stream_init	compat/jansson/load.c	/^stream_init(stream_t *stream, get_func get, eof_func eof, void *data)$/;"	f	file:
+stream_pos	compat/jansson/load.c	/^    int stream_pos;$/;"	m	struct:__anon11	file:
+stream_t	compat/jansson/load.c	/^} stream_t;$/;"	t	typeref:struct:__anon11	file:
+stream_unget	compat/jansson/load.c	/^static void stream_unget(stream_t *stream, char c)$/;"	f	file:
+string	compat/jansson/dump.c	/^struct string$/;"	s	file:
+string	compat/jansson/load.c	/^        char *string;$/;"	m	union:__anon12::__anon13	file:
+string_data_t	compat/jansson/load.c	/^} string_data_t;$/;"	t	typeref:struct:__anon14	file:
+string_eof	compat/jansson/load.c	/^static int string_eof(void *data)$/;"	f	file:
+string_get	compat/jansson/load.c	/^static int string_get(void *data)$/;"	f	file:
+string_to_key	compat/jansson/value.c	35;"	d	file:
+subdir	Makefile	/^subdir = .$/;"	m
+subdir	compat/Makefile	/^subdir = compat$/;"	m
+subdir	compat/jansson/Makefile	/^subdir = compat\/jansson$/;"	m
+submit_old	cpu-miner.c	/^static bool submit_old = false;$/;"	v	file:
+submit_upstream_work	cpu-miner.c	/^static bool submit_upstream_work(CURL *curl, struct work *work)$/;"	f	file:
+submit_work	cpu-miner.c	/^static bool submit_work(struct thr_info *thr, const struct work *work_in)$/;"	f	file:
+swab32	miner.h	/^static inline uint32_t swab32(uint32_t v)$/;"	f
+sysconfdir	Makefile	/^sysconfdir = ${prefix}\/etc$/;"	m
+sysconfdir	compat/Makefile	/^sysconfdir = ${prefix}\/etc$/;"	m
+sysconfdir	compat/jansson/Makefile	/^sysconfdir = ${prefix}\/etc$/;"	m
+table	compat/jansson/jansson_private.h	/^    json_t **table;$/;"	m	struct:__anon6
+tardir	Makefile	/^	tardir=$(distdir) && $(am__tar) | BZIP2=$${BZIP2--9} bzip2 -c >$(distdir).tar.bz2$/;"	m
+tardir	Makefile	/^	tardir=$(distdir) && $(am__tar) | GZIP=$(GZIP_ENV) gzip -c >$(distdir).tar.gz$/;"	m
+tardir	Makefile	/^	tardir=$(distdir) && $(am__tar) | XZ_OPT=$${XZ_OPT--e} xz -c >$(distdir).tar.xz$/;"	m
+tardir	Makefile	/^	tardir=$(distdir) && $(am__tar) | compress -c >$(distdir).tar.Z$/;"	m
+tardir	Makefile	/^	tardir=$(distdir) && $(am__tar) | lzip -c $${LZIP_OPT--9} >$(distdir).tar.lz$/;"	m
+tardir	Makefile	/^	tardir=$(distdir) && $(am__tar) | lzma -9 -c >$(distdir).tar.lzma$/;"	m
+target	Makefile	/^target = i686-pc-linux-gnu$/;"	m
+target	compat/Makefile	/^target = i686-pc-linux-gnu$/;"	m
+target	compat/jansson/Makefile	/^target = i686-pc-linux-gnu$/;"	m
+target	cpu-miner.c	/^	uint32_t target[8];$/;"	m	struct:work	file:
+target_alias	Makefile	/^target_alias = $/;"	m
+target_alias	compat/Makefile	/^target_alias = $/;"	m
+target_alias	compat/jansson/Makefile	/^target_alias = $/;"	m
+target_cpu	Makefile	/^target_cpu = i686$/;"	m
+target_cpu	compat/Makefile	/^target_cpu = i686$/;"	m
+target_cpu	compat/jansson/Makefile	/^target_cpu = i686$/;"	m
+target_os	Makefile	/^target_os = linux-gnu$/;"	m
+target_os	compat/Makefile	/^target_os = linux-gnu$/;"	m
+target_os	compat/jansson/Makefile	/^target_os = linux-gnu$/;"	m
+target_triplet	Makefile	/^target_triplet = i686-pc-linux-gnu$/;"	m
+target_triplet	compat/Makefile	/^target_triplet = i686-pc-linux-gnu$/;"	m
+target_triplet	compat/jansson/Makefile	/^target_triplet = i686-pc-linux-gnu$/;"	m
+target_vendor	Makefile	/^target_vendor = pc$/;"	m
+target_vendor	compat/Makefile	/^target_vendor = pc$/;"	m
+target_vendor	compat/jansson/Makefile	/^target_vendor = pc$/;"	m
+test_varargs_macros	configure	/^  test_varargs_macros ();$/;"	f
+text	compat/jansson/jansson.h	/^    char text[JSON_ERROR_TEXT_LENGTH];$/;"	m	struct:__anon4
+thr	cpu-miner.c	/^	struct thr_info		*thr;$/;"	m	struct:workio_cmd	typeref:struct:workio_cmd::thr_info	file:
+thr_hashrates	cpu-miner.c	/^static double *thr_hashrates;$/;"	v	file:
+thr_info	cpu-miner.c	/^struct thr_info *thr_info;$/;"	v	typeref:struct:thr_info
+thr_info	miner.h	/^struct thr_info {$/;"	s
+thread_q	util.c	/^struct thread_q {$/;"	s	file:
+timeval_subtract	util.c	/^int timeval_subtract(struct timeval *result, struct timeval *x,$/;"	f
+token	compat/jansson/load.c	/^    int token;$/;"	m	struct:__anon12	file:
+top_build_prefix	Makefile	/^top_build_prefix = $/;"	m
+top_build_prefix	compat/Makefile	/^top_build_prefix = ..\/$/;"	m
+top_build_prefix	compat/jansson/Makefile	/^top_build_prefix = ..\/..\/$/;"	m
+top_builddir	Makefile	/^top_builddir = .$/;"	m
+top_builddir	compat/Makefile	/^top_builddir = ..$/;"	m
+top_builddir	compat/jansson/Makefile	/^top_builddir = ..\/..$/;"	m
+top_distdir	Makefile	/^top_distdir = $(distdir)$/;"	m
+top_srcdir	Makefile	/^top_srcdir = .$/;"	m
+top_srcdir	compat/Makefile	/^top_srcdir = ..$/;"	m
+top_srcdir	compat/jansson/Makefile	/^top_srcdir = ..\/..$/;"	m
+tq_ent	util.c	/^struct tq_ent {$/;"	s	file:
+tq_free	util.c	/^void tq_free(struct thread_q *tq)$/;"	f
+tq_freeze	util.c	/^void tq_freeze(struct thread_q *tq)$/;"	f
+tq_freezethaw	util.c	/^static void tq_freezethaw(struct thread_q *tq, bool frozen)$/;"	f	file:
+tq_new	util.c	/^struct thread_q *tq_new(void)$/;"	f
+tq_pop	util.c	/^void *tq_pop(struct thread_q *tq, const struct timespec *abstime)$/;"	f
+tq_push	util.c	/^bool tq_push(struct thread_q *tq, void *data)$/;"	f
+tq_thaw	util.c	/^void tq_thaw(struct thread_q *tq)$/;"	f
+transform	Makefile	/^transform = $(program_transform_name)$/;"	m
+transform	compat/Makefile	/^transform = $(program_transform_name)$/;"	m
+transform	compat/jansson/Makefile	/^transform = $(program_transform_name)$/;"	m
+type	compat/jansson/jansson.h	/^    json_type type;$/;"	m	struct:__anon3
+u	cpu-miner.c	/^	} u;$/;"	m	struct:workio_cmd	typeref:union:workio_cmd::__anon18	file:
+unlikely	miner.h	51;"	d
+unlikely	miner.h	54;"	d
+unlikely	miner.h	57;"	d
+upload_buffer	util.c	/^struct upload_buffer {$/;"	s	file:
+upload_data_cb	util.c	/^static size_t upload_data_cb(void *ptr, size_t size, size_t nmemb,$/;"	f	file:
+url	miner.h	/^	char *url;$/;"	m	struct:stratum_ctx
+usage	cpu-miner.c	/^static char const usage[] = "\\$/;"	v	file:
+use_syslog	cpu-miner.c	/^bool use_syslog = false;$/;"	v
+utf8_check_first	compat/jansson/utf.c	/^int utf8_check_first(char byte)$/;"	f
+utf8_check_full	compat/jansson/utf.c	/^int utf8_check_full(const char *buffer, int size, int32_t *codepoint)$/;"	f
+utf8_check_string	compat/jansson/utf.c	/^int utf8_check_string(const char *string, int length)$/;"	f
+utf8_encode	compat/jansson/utf.c	/^int utf8_encode(int32_t codepoint, char *buffer, int *size)$/;"	f
+utf8_iterate	compat/jansson/utf.c	/^const char *utf8_iterate(const char *buffer, int32_t *codepoint)$/;"	f
+val	cpu-miner.c	/^	int val;$/;"	m	struct:option	file:
+value	compat/jansson/hashtable.h	/^    void *value;$/;"	m	struct:hashtable_pair
+value	compat/jansson/jansson_private.h	/^    char *value;$/;"	m	struct:__anon7
+value	compat/jansson/jansson_private.h	/^    double value;$/;"	m	struct:__anon8
+value	compat/jansson/jansson_private.h	/^    int value;$/;"	m	struct:__anon9
+value	compat/jansson/load.c	/^    } value;$/;"	m	struct:__anon12	typeref:union:__anon12::__anon13	file:
+value	compat/jansson/strbuffer.h	/^    char *value;$/;"	m	struct:__anon15
+value_decref	compat/jansson/value.c	/^static void value_decref(void *value)$/;"	f	file:
+version	miner.h	/^	unsigned char version[4];$/;"	m	struct:stratum_job
+visited	compat/jansson/jansson_private.h	/^    int visited;$/;"	m	struct:__anon5
+visited	compat/jansson/jansson_private.h	/^    int visited;$/;"	m	struct:__anon6
+want_longpoll	cpu-miner.c	/^bool want_longpoll = true;$/;"	v
+want_stratum	cpu-miner.c	/^bool want_stratum = true;$/;"	v
+whitespace	compat/jansson/dump.c	/^static char whitespace[] = "                                                                                                                                                                                                                                                                ";$/;"	v	file:
+work	cpu-miner.c	/^		struct work	*work;$/;"	m	union:workio_cmd::__anon18	typeref:struct:workio_cmd::__anon18::work	file:
+work	cpu-miner.c	/^struct work {$/;"	s	file:
+work_decode	cpu-miner.c	/^static bool work_decode(const json_t *val, struct work *work)$/;"	f	file:
+work_lock	miner.h	/^	pthread_mutex_t work_lock;$/;"	m	struct:stratum_ctx
+work_restart	cpu-miner.c	/^struct work_restart *work_restart = NULL;$/;"	v	typeref:struct:work_restart
+work_restart	miner.h	/^struct work_restart {$/;"	s
+work_thr_id	cpu-miner.c	/^static int work_thr_id;$/;"	v	file:
+workio_cmd	cpu-miner.c	/^struct workio_cmd {$/;"	s	file:
+workio_cmd_free	cpu-miner.c	/^static void workio_cmd_free(struct workio_cmd *wc)$/;"	f	file:
+workio_commands	cpu-miner.c	/^enum workio_commands {$/;"	g	file:
+workio_get_work	cpu-miner.c	/^static bool workio_get_work(struct workio_cmd *wc, CURL *curl)$/;"	f	file:
+workio_submit_work	cpu-miner.c	/^static bool workio_submit_work(struct workio_cmd *wc, CURL *curl)$/;"	f	file:
+workio_thread	cpu-miner.c	/^static void *workio_thread(void *userdata)$/;"	f	file:
+xnonce1	miner.h	/^	unsigned char *xnonce1;$/;"	m	struct:stratum_ctx
+xnonce1_size	miner.h	/^	size_t xnonce1_size;$/;"	m	struct:stratum_ctx
+xnonce2	cpu-miner.c	/^	unsigned char xnonce2[32];$/;"	m	struct:work	file:
+xnonce2	miner.h	/^	unsigned char *xnonce2;$/;"	m	struct:stratum_job
+xnonce2_len	cpu-miner.c	/^	size_t xnonce2_len;$/;"	m	struct:work	file:
+xnonce2_size	miner.h	/^	size_t xnonce2_size;$/;"	m	struct:stratum_ctx
+xor_salsa8	scrypt.c	/^static inline void xor_salsa8(uint32_t B[16], const uint32_t Bx[16])$/;"	f	file:
